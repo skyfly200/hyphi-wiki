@@ -1,12 +1,13 @@
 <!-- docs/.vitepress/theme/components/HyphiLayout.vue -->
 <template lang="pug">
-DefaultTheme
+Layout
   template(#layout-top)
     .hyphi-nav-glow(aria-hidden="true")
 </template>
 
 <script setup>
 import DefaultTheme from 'vitepress/theme'
+const { Layout } = DefaultTheme
 </script>
 
 <style lang="scss">
