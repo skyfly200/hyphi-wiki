@@ -1,6 +1,7 @@
 {
   "name": "hyphi-wiki",
   "version": "0.1.0",
+  "type": "module",
   "description": "Hyphi open hardware wiki — wiki.hyphi.art",
   "scripts": {
     "dev": "vitepress dev docs",
