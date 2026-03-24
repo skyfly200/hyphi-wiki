@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "docs/.vitepress/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA-style redirects for VitePress client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

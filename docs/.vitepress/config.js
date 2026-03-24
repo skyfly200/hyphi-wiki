@@ -1,0 +1,102 @@
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
+  title: 'Hyphi Wiki',
+  description: 'Open hardware documentation — OWLs protocol, Gloflora, firmware, and DIY guides',
+  lang: 'en-US',
+
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['meta', { name: 'theme-color', content: '#C060FF' }],
+  ],
+
+  themeConfig: {
+    logo: '/logo.png',
+    siteTitle: 'Hyphi Wiki',
+
+    nav: [
+      { text: 'OWLs Protocol', link: '/owls/' },
+      { text: 'Gloflora', link: '/gloflora/' },
+      { text: 'Firmware', link: '/firmware/' },
+      { text: 'DIY Guides', link: '/diy/' },
+      { text: '↗ hyphi.art', link: 'https://hyphi.art', target: '_blank' },
+    ],
+
+    sidebar: {
+      '/owls/': [
+        {
+          text: 'OWLs Protocol',
+          items: [
+            { text: 'Overview', link: '/owls/' },
+            { text: 'Architecture', link: '/owls/architecture' },
+            { text: 'BLE Services & UUIDs', link: '/owls/ble-services' },
+            { text: 'Wire Formats', link: '/owls/wire-formats' },
+            { text: 'Mesh Topology', link: '/owls/mesh' },
+            { text: 'Device Discovery', link: '/owls/discovery' },
+          ]
+        }
+      ],
+      '/gloflora/': [
+        {
+          text: 'Gloflora Hardware',
+          items: [
+            { text: 'Overview', link: '/gloflora/' },
+            { text: 'Gloflora Clip', link: '/gloflora/clip' },
+            { text: 'Gloflora Home', link: '/gloflora/home' },
+            { text: 'Schematic & BOM', link: '/gloflora/bom' },
+            { text: 'Current Limit Config', link: '/gloflora/current-limit' },
+            { text: 'PCB Fabrication', link: '/gloflora/pcb' },
+          ]
+        }
+      ],
+      '/firmware/': [
+        {
+          text: 'Firmware',
+          items: [
+            { text: 'Overview', link: '/firmware/' },
+            { text: 'WLED Setup', link: '/firmware/wled-setup' },
+            { text: 'WLED Custom Config', link: '/firmware/wled-config' },
+            { text: 'OWLs Firmware', link: '/firmware/owls-fw' },
+            { text: 'Flashing Guide', link: '/firmware/flashing' },
+            { text: 'OTA Updates', link: '/firmware/ota' },
+          ]
+        }
+      ],
+      '/diy/': [
+        {
+          text: 'DIY Build Guides',
+          items: [
+            { text: 'Overview', link: '/diy/' },
+            { text: 'Tools & Materials', link: '/diy/tools' },
+            { text: 'Build: Gloflora Clip', link: '/diy/build-clip' },
+            { text: 'Build: Gloflora Home', link: '/diy/build-home' },
+            { text: 'LED Wiring Basics', link: '/diy/led-wiring' },
+            { text: 'Soldering Tips', link: '/diy/soldering' },
+          ]
+        }
+      ],
+    },
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/skyfly200' },
+      { icon: { svg: '<svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>' }, link: 'https://instagram.com/hyphi.creations' },
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/skyfly200/hyphi-wiki/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
+
+    footer: {
+      message: 'Open Hardware · Open Source · Open Protocol',
+      copyright: '© 2025 Hyphi — Built with VitePress'
+    },
+
+    search: {
+      provider: 'local'
+    },
+  },
+
+  // Allow Vue components in .md files
+  vue: {},
+})

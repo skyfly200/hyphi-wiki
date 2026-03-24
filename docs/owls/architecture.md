@@ -1,0 +1,33 @@
+# Architecture
+
+<StatusBadge type="draft" />
+
+OWLs is structured as a layered BLE protocol. This page describes the overall design philosophy and how the layers fit together.
+
+## Layers
+
+```
+┌─────────────────────────────────┐
+│        Application / App        │  ← Companion app, web BLE, automations
+├─────────────────────────────────┤
+│         OWLs Mesh Layer         │  ← Device discovery, group sync, scenes
+├─────────────────────────────────┤
+│      OWLs Service Layer         │  ← LED Control, Metadata, Env Sensing
+├─────────────────────────────────┤
+│     BLE GATT / Standard SIGs    │  ← Battery, Device Info, Current Time
+├─────────────────────────────────┤
+│    Hardware (ESP32 / nRF52x)    │
+└─────────────────────────────────┘
+```
+
+## Device Roles
+
+| Role | Description |
+|------|-------------|
+| **Node** | Any OWLs-capable device (Gloflora, Smart Sprout, bare PCB) |
+| **Controller** | A node that also coordinates group effects |
+| **Bridge** | A node with Wi-Fi that bridges BLE mesh to network |
+
+::: tip This page is a draft
+Full architecture documentation is in progress. Check back as OWLs development continues.
+:::
