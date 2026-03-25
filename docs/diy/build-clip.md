@@ -2,29 +2,25 @@
 
 <StatusBadge type="wip" />
 
-Step-by-step assembly guide for the Gloflora Clip from bare PCB.
+Assembly guide for the Gloflora Clip. Your board arrives pre-assembled — this guide covers wiring the LEDs, battery, and getting it flashed and running.
 
 ::: tip Prerequisites
 - Read [Tools & Materials](./tools) and gather everything before starting
-- Read [Soldering Tips](./soldering) if you're new to SMT work
+- Read [Soldering Tips](./soldering) if you're new to soldering wires
 - Have the [BOM](../gloflora/bom) open for part reference
 :::
 
 ## Overview
 
-Estimated time: **2 hours** (experienced) / **4 hours** (first build)
+Estimated time: **1 hour** (experienced) / **2 hours** (first build)
 
 Build order:
-1. Inspect bare PCB
-2. Solder passives (R, C) — smallest first
-3. Solder TP4056 charger IC
-4. Solder Xiao ESP32-C3 module
-5. Solder WS2812B LEDs
-6. Solder tactile switch
-7. Attach battery connector
-8. Inspect + continuity test
-9. Flash firmware
-10. Functional test
+1. Inspect the assembled board
+2. Connect WS2812B LED strip to data, power, and ground pads
+3. Attach battery connector and verify polarity
+4. Inspect + continuity test
+5. Flash firmware
+6. Functional test
 
 ::: tip Full guide coming soon
 Detailed step-by-step with photos is in progress. Join the [mailing list](https://hyphi.art/#signup) to be notified when it's published.

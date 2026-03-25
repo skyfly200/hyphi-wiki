@@ -95,7 +95,7 @@ export default defineConfig({
 
     footer: {
       message: 'Open Hardware · Open Source · Open Protocol',
-      copyright: '© 2025 Hyphi — Built with VitePress'
+      copyright: '© 2026 Hyphi — Built with VitePress'
     },
 
     search: {
