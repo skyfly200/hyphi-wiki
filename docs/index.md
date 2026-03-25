@@ -10,7 +10,8 @@ hero:
     src: /ColorLogo.svg
     alt: Hyphi
 features:
-  - icon: ⚡
+  - icon:
+      src: /wled-logo.png
     title: WLED Firmware
     details: Flashing guides, WLED setup, custom config, and OTA updates for Gloflora home devices.
     link: /firmware/
