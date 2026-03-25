@@ -4,10 +4,10 @@ title: Hyphi Wiki
 
 hero:
   name: Hyphi Wiki
-  text: Open Hardware Documentation
+  text: Open Source & Open Hardware Documentation
   tagline: OWLS protocol spec, Gloflora hardware, firmware guides, and DIY builds — all in one place.
   image:
-    src: /logo-hero.svg
+    src: /ColorLogo.svg
     alt: Hyphi
 features:
   - icon: 🌐

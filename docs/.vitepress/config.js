@@ -6,12 +6,12 @@ export default defineConfig({
   lang: 'en-US',
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'theme-color', content: '#C060FF' }],
   ],
 
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/ColorLogo.svg',
     siteTitle: 'Hyphi Wiki',
 
     nav: [
