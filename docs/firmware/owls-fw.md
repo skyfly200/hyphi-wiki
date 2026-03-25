@@ -1,16 +1,16 @@
-# OWLs Firmware
+# OWLS Firmware
 
 <StatusBadge type="wip" />
 
-The OWLs firmware layer runs on the ESP32 alongside WLED, implementing the BLE GATT server that exposes the OWLs protocol services.
+The OWLS firmware layer runs on the ESP32 alongside WLED, implementing the BLE GATT server that exposes the OWLS protocol services.
 
 ## Architecture
 
-OWLs FW communicates with WLED over the **WLED HTTP JSON API** on localhost (`127.0.0.1:80`). BLE write requests are translated into WLED API calls:
+OWLS FW communicates with WLED over the **WLED HTTP JSON API** on localhost (`127.0.0.1:80`). BLE write requests are translated into WLED API calls:
 
 ```
-BLE Client write → OWLs GATT handler → WLED JSON API POST → LED update
-BLE Client read  → WLED JSON API GET  → OWLs GATT read response
+BLE Client write → OWLS GATT handler → WLED JSON API POST → LED update
+BLE Client read  → WLED JSON API GET  → OWLS GATT read response
 ```
 
 ## Services Implemented
@@ -29,7 +29,7 @@ BLE Client read  → WLED JSON API GET  → OWLs GATT read response
 ## Building
 
 ::: tip Source repository
-OWLs firmware source will be linked here once the repo is public. Currently in private development.
+OWLS firmware source will be linked here once the repo is public. Currently in private development.
 :::
 
 **Dependencies:**
@@ -43,7 +43,7 @@ OWLs firmware source will be linked here once the repo is public. Currently in p
 
 ## NFC & QR Pairing
 
-OWLs firmware also handles NFC tag reads (Android only) and QR code URL scheme:
+OWLS firmware also handles NFC tag reads (Android only) and QR code URL scheme:
 
 ```
 hyphi://connect?name=Gloflora%20Home

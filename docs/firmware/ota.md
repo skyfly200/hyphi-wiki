@@ -23,7 +23,7 @@ The WLED mobile app can also push OTA updates:
 
 ## ArduinoOTA (Development)
 
-During OWLs firmware development, ArduinoOTA allows pushing builds from Arduino IDE over the network:
+During OWLS firmware development, ArduinoOTA allows pushing builds from Arduino IDE over the network:
 
 ```cpp
 #include <ArduinoOTA.h>

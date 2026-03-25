@@ -11,7 +11,7 @@ The Gloflora Clip is a compact, battery-powered LED art piece that clips onto ba
 | MCU | Seeed Xiao ESP32-C3 |
 | LEDs | ~12× WS2812B |
 | Power | USB-C charging, LiPo cell |
-| Firmware | WLED + OWLs |
+| Firmware | WLED + OWLS |
 | Connectivity | BLE 5.0, Wi-Fi |
 | Designed in | EasyEDA |
 | Manufactured | JLCPCB |

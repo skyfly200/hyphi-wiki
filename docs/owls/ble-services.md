@@ -2,7 +2,7 @@
 
 <StatusBadge type="stable" />
 
-Full UUID reference for all OWLs BLE services and characteristics.
+Full UUID reference for all OWLS BLE services and characteristics.
 
 ## LED Control Service
 

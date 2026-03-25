@@ -11,7 +11,7 @@ Gloflora Home is a larger LED art piece designed for living spaces, camp setups,
 | MCU | Seeed Xiao ESP32-S3 |
 | LEDs | 30× WS2812B |
 | Power | 2× 18650 in parallel, USB-C charge |
-| Firmware | WLED + OWLs |
+| Firmware | WLED + OWLS |
 | Connectivity | BLE 5.0, Wi-Fi |
 | Designed in | EasyEDA |
 | Manufactured | JLCPCB |

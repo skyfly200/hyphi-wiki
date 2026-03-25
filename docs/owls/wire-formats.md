@@ -2,7 +2,7 @@
 
 <StatusBadge type="stable" />
 
-Detailed encoding specifications for every OWLs characteristic.
+Detailed encoding specifications for every OWLS characteristic.
 
 ## Primitive Types
 

@@ -1,12 +1,12 @@
-# OWLs Protocol
+# OWLS Protocol
 
 <StatusBadge type="wip" /> <StatusBadge type="hardware" label="BLE" />
 
-**Open Wireless Lighting Standard** — a BLE mesh protocol designed to unify all Hyphi devices under a single, open specification. OWLs lets any compatible device discover, sync, and control other devices on the same mesh without a central hub.
+**Open Wireless Lighting Standard** — a BLE mesh protocol designed to unify all Hyphi devices under a single, open specification. OWLS lets any compatible device discover, sync, and control other devices on the same mesh without a central hub.
 
 ## Goals
 
-- **Device-agnostic** — any MCU with BLE (ESP32, Nordic nRF52xx, etc.) can implement OWLs
+- **Device-agnostic** — any MCU with BLE (ESP32, Nordic nRF52xx, etc.) can implement OWLS
 - **Hub-free** — mesh topology, no single point of failure
 - **Open** — fully documented, free to implement
 - **Composable** — devices expose capability services; apps consume what they understand

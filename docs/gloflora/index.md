@@ -17,7 +17,7 @@ Both products share:
 - **ESP32** as the main MCU (Wi-Fi + BLE, Arduino-compatible)
 - **WLED** firmware out of the box
 - **WS2812B** addressable LEDs
-- **OWLs** BLE protocol for app control
+- **OWLS** BLE protocol for app control
 - **JLCPCB** manufactured PCBs
 
 ## Key Design Decisions

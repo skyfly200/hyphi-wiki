@@ -62,8 +62,8 @@ WLED supports **UDP sync** — multiple WLED devices on the same network can syn
 3. Enable **Send** on the controller device
 4. Enable **Receive** on follower devices
 
-::: tip OWLs vs WLED sync
-WLED UDP sync works over Wi-Fi only. OWLs BLE sync works without Wi-Fi — useful in festival settings with no network. See [OWLs Firmware](./owls-fw).
+::: tip OWLS vs WLED sync
+WLED UDP sync works over Wi-Fi only. OWLS BLE sync works without Wi-Fi — useful in festival settings with no network. See [OWLS Firmware](./owls-fw).
 :::
 
 ## Backup & Restore
