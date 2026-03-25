@@ -51,14 +51,19 @@ export default defineConfig({
       ],
       '/firmware/': [
         {
-          text: 'Firmware',
+          text: 'WLED',
           items: [
             { text: 'Overview', link: '/firmware/' },
             { text: 'WLED Setup', link: '/firmware/wled-setup' },
             { text: 'WLED Custom Config', link: '/firmware/wled-config' },
-            { text: 'OWLS Firmware', link: '/firmware/owls-fw' },
             { text: 'Flashing Guide', link: '/firmware/flashing' },
             { text: 'OTA Updates', link: '/firmware/ota' },
+          ]
+        },
+        {
+          text: 'BLE Devices',
+          items: [
+            { text: 'BLE Device Firmware', link: '/firmware/owls-fw' },
           ]
         }
       ],

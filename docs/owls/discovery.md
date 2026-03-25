@@ -1,27 +1,58 @@
 # Device Discovery
 
-<StatusBadge type="draft" />
+<StatusBadge type="stable" label="NFC/QR" /> <StatusBadge type="draft" label="BLE Mesh" />
 
-::: tip Coming Soon
-Covers BLE advertisement format, NFC NDEF tag schema (`hyphi://connect?name=...`), QR code URL format, and the scan/pairing flow used in Hyphi Hub.
-:::
+How Hyphi devices are discovered and paired — via BLE scan, NFC tap, or QR code.
+
+## BLE Scan
+
+The companion app (Hyphi Hub) filters BLE advertisements by the LED Control service UUID:
+
+```
+f82d2279-9f54-4851-8394-377d54fb99bb
+```
+
+Any device advertising this service will appear in the scan picker.
 
 ## NFC Tag Format
 
-Write an NDEF text record to your tag:
+Write an NDEF **text record** to your NFC tag with either:
 
 ```
 hyphi://connect?name=Smart%20Sprout
 ```
 
-The companion app reads the tag, extracts the name hint, and opens the BLE picker pre-filtered to that device name.
+or just the bare device name:
+
+```
+Smart Sprout
+```
+
+The app reads the tag, extracts the name hint, and opens the BLE picker pre-filtered to that device name.
+
+::: tip Writing NFC tags
+Use any standard NFC writing app (e.g. NFC Tools on Android). Write a plain text NDEF record — no special encoding required.
+:::
 
 ## QR Code Format
 
-Generate a QR containing the same URL:
+Generate a QR code containing:
 
 ```
 hyphi://connect?name=Smart%20Sprout
 ```
 
-Print it on your device enclosure. The app decodes the URL and opens the BLE picker.
+Print it on your device or enclosure. The app decodes the URL and opens the BLE picker pre-filtered by name.
+
+## Browser Support
+
+Web Bluetooth (used by Hyphi Hub) has limited browser support:
+
+| Browser | BLE | NFC | QR |
+|---------|-----|-----|----|
+| Chrome Android | ✅ | ✅ | ✅ (camera) |
+| Chrome Desktop | ✅ | ❌ | ✅ |
+| Edge Desktop | ✅ | ❌ | ✅ |
+| Safari / Firefox | ❌ | ❌ | ✅ |
+
+> Safari does not support Web Bluetooth. Hyphi Hub falls back to demo mode on unsupported browsers.

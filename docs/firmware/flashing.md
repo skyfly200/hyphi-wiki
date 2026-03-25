@@ -2,7 +2,7 @@
 
 <StatusBadge type="stable" />
 
-How to flash WLED and OWLS firmware onto Gloflora hardware.
+How to flash WLED onto Gloflora home devices, or custom BLE firmware onto wearable and flow-line devices.
 
 ## Method 1 — WLED Web Installer (Easiest)
 
@@ -46,7 +46,7 @@ esptool.py --chip esp32c3 --port /dev/ttyUSB0 \
 
 ## Method 3 — Arduino IDE / PlatformIO
 
-For building and flashing OWLS firmware from source:
+For building and flashing BLE device firmware from source:
 
 **Arduino IDE:**
 1. Install ESP32 board support: Preferences → Additional Boards URL:

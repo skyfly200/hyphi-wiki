@@ -15,8 +15,11 @@
 
 | Component | Status |
 |-----------|--------|
-| BLE service UUIDs | Defined |
-| Wire formats | Defined |
+| BLE service UUIDs | Documented |
+| Characteristic UUIDs | Documented |
+| Wire formats | Documented |
+| Metadata service | Documented |
+| Device discovery (NFC/QR) | Documented |
 | Mesh topology spec | Draft |
 | Reference firmware | In progress |
 | Companion app SDK | Planned |
