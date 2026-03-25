@@ -2,7 +2,7 @@
 
 <StatusBadge type="stable" /> <StatusBadge type="hardware" />
 
-WS2812B LEDs draw up to **60mA per LED** at full white. Without current limiting, strings will brownout batteries, blow fuses, or damage the MCU's 5V rail. Gloflora uses a resistor-based current limit on the data line combined with power budget planning.
+WS2812B LEDs draw up to **60mA per LED** at full white. Without current limiting, strings will brownout batteries, blow fuses, or damage the MCU's 5V rail. Glow Flora uses a resistor-based current limit on the data line combined with power budget planning.
 
 ## Power Budget Formula
 
@@ -13,7 +13,7 @@ WS2812B max per channel: 20mA (R/G/B each)
 Max per LED (full white): 60mA
 ```
 
-**Example — Gloflora Home (30 LEDs):**
+**Example — Glow Flora Home (30 LEDs):**
 ```
 Worst case: 30 × 60mA = 1800mA = 1.8A
 ```
@@ -54,10 +54,10 @@ Set a maximum brightness in WLED to enforce a software current limit:
 WLED will automatically scale brightness down to stay within the current budget.
 
 ::: warning 18650 discharge rates
-Standard 18650 cells are rated 500mA–2A continuous discharge. At 1.8A you're at the limit of cheap cells. Use high-drain cells (Samsung 25R, Sony VTC5) for Gloflora Home, or enforce the 1A WLED limit.
+Standard 18650 cells are rated 500mA–2A continuous discharge. At 1.8A you're at the limit of cheap cells. Use high-drain cells (Samsung 25R, Sony VTC5) for Glow Flora Home, or enforce the 1A WLED limit.
 :::
 
-## Gloflora Clip Config
+## Glow Flora Clip Config
 
 | Parameter | Value |
 |-----------|-------|
@@ -67,7 +67,7 @@ Standard 18650 cells are rated 500mA–2A continuous discharge. At 1.8A you're a
 | Data resistor | 330Ω |
 | Decoupling cap | 100μF |
 
-## Gloflora Home Config
+## Glow Flora Home Config
 
 | Parameter | Value |
 |-----------|-------|

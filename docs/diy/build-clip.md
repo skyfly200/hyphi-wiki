@@ -1,8 +1,8 @@
-# Build: Gloflora Clip
+# Build: Glow Flora Clip
 
 <StatusBadge type="wip" />
 
-Assembly guide for the Gloflora Clip. Your board arrives pre-assembled — this guide covers wiring the LEDs, battery, and getting it flashed and running.
+Assembly guide for the Glow Flora Clip. Your board arrives pre-assembled — this guide covers wiring the LEDs, battery, and getting it flashed and running.
 
 ::: tip Prerequisites
 - Read [Tools & Materials](./tools) and gather everything before starting

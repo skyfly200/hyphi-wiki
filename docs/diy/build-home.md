@@ -1,8 +1,8 @@
-# Build: Gloflora Home
+# Build: Glow Flora Home
 
 <StatusBadge type="wip" />
 
-Assembly guide for the Gloflora Home. Your board arrives pre-assembled — this guide covers wiring the LED strip, power switch, and 18650 battery holders.
+Assembly guide for the Glow Flora Home. Your board arrives pre-assembled — this guide covers wiring the LED strip, power switch, and 18650 battery holders.
 
 ::: tip Prerequisites
 - Read [Tools & Materials](./tools) and gather everything before starting

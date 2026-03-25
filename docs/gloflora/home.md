@@ -1,8 +1,8 @@
-# Gloflora Home
+# Glow Flora Home
 
 <StatusBadge type="hardware" /> <StatusBadge type="wip" label="Prototype v2" />
 
-Gloflora Home is a larger LED art piece designed for living spaces, camp setups, and festival installations. Runs on dual 18650 cells for extended battery life.
+Glow Flora Home is a larger LED art piece designed for living spaces, camp setups, and festival installations. Runs on dual 18650 cells for extended battery life.
 
 ## Specs
 

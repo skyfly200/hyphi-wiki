@@ -5,7 +5,7 @@
 OWLS firmware runs on wearable and flow-line Hyphi devices. It implements a BLE GATT server that exposes the OWLS protocol services, making the device controllable via the [Hyphi Hub](https://github.com/skyfly200/hyphi-hub) PWA app.
 
 ::: tip Not for home devices
-Home devices (Gloflora Home, etc.) run WLED and are not currently managed by Hyphi Hub. See [Roadmap](#roadmap) below.
+Home devices (Glow Flora Home, etc.) run WLED and are not currently managed by Hyphi Hub. See [Roadmap](#roadmap) below.
 :::
 
 ## How It Works

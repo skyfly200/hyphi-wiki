@@ -2,7 +2,7 @@
 
 <StatusBadge type="stable" />
 
-Hyphi PCBs are manufactured at **JLCPCB** with SMT assembly. This page covers the settings and export workflow used for Gloflora boards.
+Hyphi PCBs are manufactured at **JLCPCB** with SMT assembly. This page covers the settings and export workflow used for Glow Flora boards.
 
 ## JLCPCB Settings
 
@@ -42,5 +42,5 @@ JLCPCB economic SMT constraints to keep in mind:
 | Smallest SMT package | 0402 (preferred for hand rework: 0603+) |
 
 ::: warning 0402 rework
-Gloflora Clip uses 0402 passives for density. These are not hand-solderable without a hot air station. If you're building from bare boards, source 0603 equivalents and modify the footprint, or use the JLCPCB assembled version.
+Glow Flora Clip uses 0402 passives for density. These are not hand-solderable without a hot air station. If you're building from bare boards, source 0603 equivalents and modify the footprint, or use the JLCPCB assembled version.
 :::

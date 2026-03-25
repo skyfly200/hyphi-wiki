@@ -5,7 +5,7 @@ title: Hyphi Wiki
 hero:
   name: Hyphi Wiki
   text: Guides and Documentation
-  tagline: OWLS protocol spec, Gloflora hardware, firmware guides, and DIY builds — all in one place.
+  tagline: OWLS protocol spec, Glow Flora hardware, firmware guides, and DIY builds — all in one place.
   image:
     src: /ColorLogo.svg
     alt: Hyphi
@@ -13,7 +13,7 @@ features:
   - icon:
       src: /wled-logo.png
     title: WLED Firmware
-    details: Flashing guides, WLED setup, custom config, and OTA updates for Gloflora home devices.
+    details: Flashing guides, WLED setup, custom config, and OTA updates for Glow Flora home devices.
     link: /firmware/
     linkText: WLED docs
 
@@ -30,7 +30,7 @@ features:
     link: /diy/
     linkText: Start building
 
-  - icon: 🌐
+  - icon: 🦉
     title: OWLS Protocol
     details: Open Wireless Lighting Standard — BLE spec for syncing Hyphi devices. Full UUID reference, wire formats, and mesh topology.
     link: /owls/

@@ -43,4 +43,4 @@ This does not restrict you from referring to Hyphi by name in documentation, art
 | Hyphi Hub source code | Open source |
 | Hyphi name | Reserved trademark |
 | Hyphi logo | Reserved trademark |
-| Gloflora hardware designs | See individual product pages |
+| Glow Flora hardware designs | See individual product pages |

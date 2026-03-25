@@ -17,8 +17,8 @@ Hyphi PCBs ship with all surface-mount components already soldered. Your job is 
 | Guide | Difficulty | Time |
 |-------|-----------|------|
 | [Tools & Materials](./tools) | — | — |
-| [Build: Gloflora Clip](./build-clip) | ⚡⚡ Intermediate | ~1h |
-| [Build: Gloflora Home](./build-home) | ⚡⚡ Intermediate | ~2h |
+| [Build: Glow Flora Clip](./build-clip) | ⚡⚡ Intermediate | ~1h |
+| [Build: Glow Flora Home](./build-home) | ⚡⚡ Intermediate | ~2h |
 | [LED Wiring Basics](./led-wiring) | ⚡ Beginner | Reference |
 | [Soldering Tips](./soldering) | ⚡ Beginner | Reference |
 
