@@ -9,17 +9,6 @@ hero:
   image:
     src: /logo.png
     alt: Hyphi
-  actions:
-    - theme: brand
-      text: OWLS Protocol
-      link: /owls/
-    - theme: alt
-      text: Gloflora Docs
-      link: /gloflora/
-    - theme: alt
-      text: DIY Guides
-      link: /diy/
-
 features:
   - icon: 🌐
     title: OWLS Protocol

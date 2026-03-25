@@ -11,14 +11,14 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/logo.svg',
     siteTitle: 'Hyphi Wiki',
 
     nav: [
-      { text: 'OWLS Protocol', link: '/owls/' },
       { text: 'Gloflora', link: '/gloflora/' },
       { text: 'Firmware', link: '/firmware/' },
       { text: 'DIY Guides', link: '/diy/' },
+      { text: 'OWLS Protocol', link: '/owls/' },
       { text: '↗ hyphi.art', link: 'https://hyphi.art', target: '_blank' },
     ],
 
