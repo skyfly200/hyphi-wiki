@@ -11,7 +11,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/logo.png',
     siteTitle: 'Hyphi Wiki',
 
     nav: [
@@ -19,6 +19,7 @@ export default defineConfig({
       { text: 'Firmware', link: '/firmware/' },
       { text: 'DIY Guides', link: '/diy/' },
       { text: 'OWLS Protocol', link: '/owls/' },
+      { text: 'Open Source', link: '/open-source' },
       { text: '↗ hyphi.art', link: 'https://hyphi.art', target: '_blank' },
     ],
 

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 -80 160 160" width="320" height="320">
+  <defs>
+    <!-- Sphere gradient — highlights top-left like a 3-D ball -->
+    <radialGradient id="sphere" cx="38%" cy="32%" r="68%" fx="38%" fy="32%">
+      <stop offset="0%"   stop-color="#f0b8ff"/>
+      <stop offset="40%"  stop-color="#C060FF"/>
+      <stop offset="100%" stop-color="#4a1080"/>
+    </radialGradient>
+
+    <!-- Outer glow: blur + merge back over source -->
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="1 0 0 0 0.55
+                0 0 0 0 0.1
+                0 0 0 0 0.8
+                0 0 0 1.4 0"
+        result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g fill="url(#sphere)" filter="url(#glow)">
+    <circle cx="0.37"   cy="1.61"   r="8.21" />
+    <circle cx="-2.73"  cy="1.85"   r="8.37" />
+    <circle cx="-4.08"  cy="-2.81"  r="8.52" />
+    <circle cx="1.52"   cy="-6.42"  r="8.68" />
+    <circle cx="8.17"   cy="-1.14"  r="8.83" />
+    <circle cx="4.83"   cy="8.64"   r="8.99" />
+    <circle cx="-7.36"  cy="8.9"    r="9.14" />
+    <circle cx="-12.53" cy="-4.15"  r="9.30" />
+    <circle cx="-0.75"  cy="-14.83" r="9.46" />
+    <circle cx="15.06"  cy="-6.75"  r="9.61" />
+    <circle cx="12.92"  cy="12.74"  r="9.77" />
+    <circle cx="-7.85"  cy="18.18"  r="9.92" />
+    <circle cx="-21.44" cy="-0.79"  r="10.08"/>
+    <circle cx="-7.57"  cy="-21.82" r="10.23"/>
+    <circle cx="18.85"  cy="-16.04" r="10.39"/>
+    <circle cx="23.23"  cy="12.54"  r="10.55"/>
+    <circle cx="-3.48"  cy="27.83"  r="10.70"/>
+    <circle cx="-28.8"  cy="7.25"   r="10.86"/>
+    <circle cx="-18.15" cy="-25.56" r="11.01"/>
+    <circle cx="18.16"  cy="-27.55" r="11.17"/>
+  </g>
+</svg>

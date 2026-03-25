@@ -7,7 +7,7 @@ hero:
   text: Open Hardware Documentation
   tagline: OWLS protocol spec, Gloflora hardware, firmware guides, and DIY builds — all in one place.
   image:
-    src: /logo.png
+    src: /logo-hero.svg
     alt: Hyphi
 features:
   - icon: 🌐
