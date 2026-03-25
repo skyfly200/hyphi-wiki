@@ -1,94 +1,108 @@
 // ── Hyphi Wiki — Design System ──────────────────────────────────────────────
-// Extends VitePress default theme via CSS custom property overrides
+// Synced with hyphi-site & hyphi-hub design tokens
 
 // ── Fonts ────────────────────────────────────────────────────────────────────
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,300&family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap');
 
 // ── Hyphi tokens ─────────────────────────────────────────────────────────────
 :root {
-  // Brand palette
-  --hyphi-ink:       #06040f;
-  --hyphi-deep:      #0c0820;
-  --hyphi-purple:    #7B2FBE;
-  --hyphi-magenta:   #C060FF;
-  --hyphi-pink:      #E080FF;
-  --hyphi-rose:      #ff50c0;
-  --hyphi-white:     #ede8f8;
-  --hyphi-muted:     #7a6e99;
-  --hyphi-border:    rgba(192, 96, 255, 0.18);
-  --hyphi-glow:      rgba(192, 96, 255, 0.25);
+  // Backgrounds
+  --hyphi-bg:       #0a0a0f;
+  --hyphi-surface:  #111118;
+  --hyphi-panel:    #16161f;
+  --hyphi-border:   #2a2a3a;
+  --hyphi-muted:    #3a3a50;
 
-  // ── VitePress overrides (light-as-dark — we run dark-mode only) ────────────
-  --vp-c-brand-1:         #C060FF;
-  --vp-c-brand-2:         #9B40DF;
-  --vp-c-brand-3:         #7B2FBE;
-  --vp-c-brand-soft:      rgba(192, 96, 255, 0.12);
+  // Text
+  --hyphi-text:     #e8e8f0;
+  --hyphi-sub:      #7a7a9a;
 
-  --vp-c-bg:              #06040f;
-  --vp-c-bg-soft:         #0e0a1e;
-  --vp-c-bg-mute:         #160e2a;
+  // Accents
+  --hyphi-orange:   #ff6b35;
+  --hyphi-violet:   #7b5cfa;
+  --hyphi-teal:     #3dffc0;
 
-  --vp-c-divider:         rgba(192, 96, 255, 0.15);
-  --vp-c-text-1:          #ede8f8;
-  --vp-c-text-2:          #a898cc;
-  --vp-c-text-3:          #7a6e99;
+  // Glows
+  --hyphi-glow:     rgba(255, 107, 53, 0.18);
+  --hyphi-glow2:    rgba(123, 92, 250, 0.15);
 
-  --vp-c-tip-1:           var(--hyphi-magenta);
-  --vp-c-tip-2:           var(--hyphi-magenta);
-  --vp-c-tip-soft:        rgba(192, 96, 255, 0.1);
+  // ── VitePress token overrides ─────────────────────────────────────────────
+  --vp-c-brand-1:         #ff6b35;
+  --vp-c-brand-2:         #e05828;
+  --vp-c-brand-3:         #c04010;
+  --vp-c-brand-soft:      rgba(255, 107, 53, 0.12);
 
-  --vp-nav-bg-color:      rgba(6, 4, 15, 0.92);
-  --vp-sidebar-bg-color:  #0a0718;
+  --vp-c-bg:              #0a0a0f;
+  --vp-c-bg-soft:         #111118;
+  --vp-c-bg-mute:         #16161f;
+  --vp-c-bg-alt:          #111118;
+
+  --vp-c-divider:         #2a2a3a;
+  --vp-c-text-1:          #e8e8f0;
+  --vp-c-text-2:          #7a7a9a;
+  --vp-c-text-3:          #3a3a50;
+
+  --vp-c-tip-1:           var(--hyphi-violet);
+  --vp-c-tip-2:           var(--hyphi-violet);
+  --vp-c-tip-soft:        rgba(123, 92, 250, 0.1);
+
+  --vp-nav-bg-color:      rgba(10, 10, 15, 0.92);
+  --vp-sidebar-bg-color:  #0d0d14;
 
   --vp-font-family-base:  'DM Sans', sans-serif;
-  --vp-font-family-mono:  'Space Mono', monospace;
+  --vp-font-family-mono:  'DM Mono', monospace;
 
-  --vp-code-bg:           rgba(192, 96, 255, 0.08);
-  --vp-code-color:        #E080FF;
+  --vp-code-bg:           rgba(123, 92, 250, 0.08);
+  --vp-code-color:        #a899ff;
 
-  --vp-c-default-1:       #7a6e99;
-  --vp-c-default-soft:    rgba(122, 110, 153, 0.1);
+  --vp-c-default-1:       #7a7a9a;
+  --vp-c-default-soft:    rgba(122, 122, 154, 0.1);
 }
 
-// Force dark mode across the board
+// Force dark mode
 html { color-scheme: dark; }
-.dark { color-scheme: dark; }
 
 // ── Global overrides ─────────────────────────────────────────────────────────
 
 // Nav logo text
 .VPNavBarTitle .title {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 700;
-  font-size: 1.15rem;
-  letter-spacing: .1em;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: .14em;
   text-transform: uppercase;
-  background: linear-gradient(135deg, var(--hyphi-pink), var(--hyphi-magenta));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--hyphi-orange);
+  -webkit-text-fill-color: initial;
+  background: none;
+}
+
+// Nav links
+.VPNavBarMenu .VPNavBarMenuLink {
+  font-family: 'DM Mono', monospace;
+  font-size: .67rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
 }
 
 // Sidebar section headers
 .VPSidebarItem.level-0 > .item > .text {
-  font-family: 'Space Mono', monospace;
-  font-size: .65rem;
-  letter-spacing: .2em;
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .22em;
   text-transform: uppercase;
-  color: var(--hyphi-magenta) !important;
+  color: var(--hyphi-orange) !important;
 }
 
 // Active sidebar item
 .VPSidebarItem.is-active > .item > .link > .text {
-  color: var(--hyphi-pink) !important;
+  color: var(--hyphi-violet) !important;
 }
 
-// Headings — give them the Cormorant treatment
+// Headings
 .vp-doc h1 {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 300;
-  font-size: 2.8rem;
-  letter-spacing: .04em;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: .06em;
   border-bottom: 1px solid var(--hyphi-border);
   padding-bottom: .5rem;
 
@@ -96,25 +110,26 @@ html { color-scheme: dark; }
     content: '';
     display: block;
     height: 1px;
-    background: linear-gradient(to right, var(--hyphi-magenta), transparent);
+    background: linear-gradient(to right, var(--hyphi-orange), var(--hyphi-violet), transparent);
     margin-top: .4rem;
-    opacity: .4;
+    opacity: .35;
   }
 }
 
 .vp-doc h2 {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
-  font-size: 1.8rem;
-  letter-spacing: .03em;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: 1.9rem;
+  letter-spacing: .05em;
   border-bottom: 1px solid var(--hyphi-border);
 }
 
 .vp-doc h3 {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
-  font-size: 1.25rem;
-  color: var(--hyphi-pink);
+  font-family: 'DM Mono', monospace;
+  font-size: .85rem;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--hyphi-orange);
 }
 
 // Code blocks
@@ -130,65 +145,145 @@ html { color-scheme: dark; }
 }
 
 .vp-doc th {
-  font-family: 'Space Mono', monospace;
-  font-size: .72rem;
-  letter-spacing: .1em;
+  font-family: 'DM Mono', monospace;
+  font-size: .68rem;
+  letter-spacing: .14em;
   text-transform: uppercase;
-  color: var(--hyphi-magenta);
-  background: rgba(192, 96, 255, 0.06);
+  color: var(--hyphi-orange);
+  background: rgba(255, 107, 53, 0.05);
   border-bottom: 1px solid var(--hyphi-border);
 }
 
 .vp-doc td {
-  border-bottom: 1px solid rgba(192, 96, 255, 0.08);
+  border-bottom: 1px solid rgba(42, 42, 58, 0.6);
   font-size: .92rem;
 }
 
 .vp-doc tr:hover td {
-  background: rgba(192, 96, 255, 0.04);
+  background: rgba(123, 92, 250, 0.04);
 }
 
-// Custom containers — retheme tip/warning/danger
+// Custom containers
 .custom-block.tip {
-  border-color: var(--hyphi-magenta);
-  background: rgba(192, 96, 255, 0.07);
+  border-color: var(--hyphi-violet);
+  background: rgba(123, 92, 250, 0.07);
 }
 
 .custom-block.warning {
-  border-color: var(--hyphi-rose);
-  background: rgba(255, 80, 192, 0.07);
+  border-color: var(--hyphi-orange);
+  background: rgba(255, 107, 53, 0.07);
 }
 
 // Inline code
 .vp-doc :not(pre) > code {
-  font-family: 'Space Mono', monospace;
+  font-family: 'DM Mono', monospace;
   font-size: .82em;
-  background: rgba(192, 96, 255, 0.1);
-  color: var(--hyphi-pink);
-  border: 1px solid rgba(192, 96, 255, 0.2);
+  background: rgba(123, 92, 250, 0.1);
+  color: #a899ff;
+  border: 1px solid rgba(123, 92, 250, 0.2);
   border-radius: 3px;
   padding: .1em .35em;
 }
 
-// ── Home hero (index.md frontmatter layout: home) ────────────────────────────
+// ── Nav glow ──────────────────────────────────────────────────────────────────
+.hyphi-nav-glow {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 107, 53, 0.5),
+    rgba(123, 92, 250, 0.4),
+    rgba(255, 107, 53, 0.5),
+    transparent
+  );
+  z-index: 999;
+  pointer-events: none;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    height: 80px;
+    background: radial-gradient(
+      ellipse at top,
+      rgba(255, 107, 53, 0.08),
+      transparent 70%
+    );
+    pointer-events: none;
+  }
+}
+
+// ── Home hero ─────────────────────────────────────────────────────────────────
 .VPHero .name {
-  font-family: 'Cormorant Garamond', serif !important;
-  font-weight: 300 !important;
-  letter-spacing: .06em !important;
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-weight: 400 !important;
+  letter-spacing: .08em !important;
+}
+
+.VPHero .text {
+  font-family: 'DM Mono', monospace !important;
+  font-size: 1rem !important;
+  letter-spacing: .2em !important;
+  text-transform: uppercase !important;
+  color: var(--hyphi-orange) !important;
 }
 
 .VPHero .tagline {
-  font-family: 'Cormorant Garamond', serif !important;
-  font-style: italic;
-  font-size: 1.2rem !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1rem !important;
+  color: var(--hyphi-sub) !important;
 }
 
-// ── Status badge component ───────────────────────────────────────────────────
+// ── Search — icon only ────────────────────────────────────────────────────────
+.VPNavBarSearch {
+  flex-grow: 0 !important;
+  padding-left: 8px !important;
+}
+
+.DocSearch-Button {
+  width: 36px !important;
+  min-width: 0 !important;
+  padding: 0 !important;
+  justify-content: center !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.DocSearch-Button:hover {
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+.DocSearch-Button .DocSearch-Button-Placeholder,
+.DocSearch-Button .DocSearch-Button-Keys {
+  display: none !important;
+}
+
+.DocSearch-Button .DocSearch-Search-Icon {
+  margin-right: 0 !important;
+  width: 17px !important;
+  height: 17px !important;
+  color: var(--hyphi-sub);
+  transition: color 0.2s;
+}
+
+.DocSearch-Button:hover .DocSearch-Search-Icon {
+  color: var(--hyphi-orange) !important;
+}
+
+// ── Status badge component ────────────────────────────────────────────────────
 .hyphi-badge {
   display: inline-flex;
   align-items: center;
   gap: .3rem;
-  font-family: 'Space Mono', monospace;
+  font-family: 'DM Mono', monospace;
   font-size: .62rem;
   letter-spacing: .12em;
   text-transform: uppercase;
@@ -197,19 +292,19 @@ html { color-scheme: dark; }
   border: 1px solid;
   line-height: 1.6;
 
-  &--stable   { color: #60e0a0; border-color: rgba(96,224,160,.35); background: rgba(96,224,160,.08); }
-  &--wip      { color: var(--hyphi-rose); border-color: rgba(255,80,192,.35); background: rgba(255,80,192,.08); }
-  &--draft    { color: var(--hyphi-muted); border-color: rgba(122,110,153,.35); background: rgba(122,110,153,.08); }
-  &--hardware { color: var(--hyphi-magenta); border-color: var(--hyphi-border); background: var(--vp-c-brand-soft); }
+  &--stable   { color: var(--hyphi-teal);   border-color: rgba(61,255,192,.3);  background: rgba(61,255,192,.07); }
+  &--wip      { color: var(--hyphi-orange);  border-color: rgba(255,107,53,.3);  background: rgba(255,107,53,.07); }
+  &--draft    { color: var(--hyphi-sub);     border-color: rgba(122,122,154,.3); background: rgba(122,122,154,.07); }
+  &--hardware { color: var(--hyphi-violet);  border-color: rgba(123,92,250,.3);  background: rgba(123,92,250,.07); }
 }
 
-// ── UUID / Wire format tables ────────────────────────────────────────────────
+// ── UUID / Wire format tables ─────────────────────────────────────────────────
 .hyphi-uuid-table {
-  font-family: 'Space Mono', monospace;
+  font-family: 'DM Mono', monospace;
   font-size: .78rem;
 
-  .uuid { color: var(--hyphi-muted); letter-spacing: .04em; }
-  .name { color: var(--hyphi-white); font-weight: 700; }
+  .uuid { color: var(--hyphi-sub); letter-spacing: .04em; }
+  .name { color: var(--hyphi-text); font-weight: 500; }
   .desc { color: var(--vp-c-text-2); font-family: 'DM Sans', sans-serif; }
 }
 
@@ -218,10 +313,10 @@ html { color-scheme: dark; }
   grid-template-columns: 180px 80px 1fr;
   gap: .5rem 1.5rem;
   padding: .6rem 0;
-  border-bottom: 1px solid rgba(192,96,255,.08);
+  border-bottom: 1px solid var(--hyphi-border);
   align-items: baseline;
 
-  .char  { font-family: 'Space Mono', monospace; font-size: .78rem; color: var(--hyphi-pink); }
-  .type  { font-family: 'Space Mono', monospace; font-size: .7rem; color: var(--hyphi-muted); }
+  .char  { font-family: 'DM Mono', monospace; font-size: .78rem; color: var(--hyphi-violet); }
+  .type  { font-family: 'DM Mono', monospace; font-size: .7rem; color: var(--hyphi-sub); }
   .desc  { font-size: .9rem; color: var(--vp-c-text-2); }
 }
