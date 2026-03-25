@@ -116,7 +116,7 @@ Each Metadata characteristic carries a JSON string. Fields are optional — abse
 
 ### Profile (`META_PROFILE`)
 ```json
-{ "img": "https://…/thumb.png", "ui": "gloflora-clip", "theme": "#C060FF" }
+{ "img": "https://…/thumb.png", "ui": "glowflora-clip", "theme": "#C060FF" }
 ```
 | Field | Type | Description |
 |-------|------|-------------|

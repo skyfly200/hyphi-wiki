@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'Hyphi Wiki',
-  description: 'Open hardware documentation — OWLS protocol, Glow Flora, firmware, and DIY guides',
+  description: 'Open hardware documentation — OWLS protocol, Glowflora, firmware, and DIY guides',
   lang: 'en-US',
 
   head: [
@@ -15,7 +15,7 @@ export default defineConfig({
     siteTitle: 'Hyphi Wiki',
 
     nav: [
-      { text: 'Glow Flora', link: '/gloflora/' },
+      { text: 'Glowflora', link: '/glowflora/' },
       { text: 'Firmware', link: '/firmware/' },
       { text: 'DIY Guides', link: '/diy/' },
       { text: 'OWLS Protocol', link: '/owls/' },
@@ -37,16 +37,16 @@ export default defineConfig({
           ]
         }
       ],
-      '/gloflora/': [
+      '/glowflora/': [
         {
-          text: 'Glow Flora Hardware',
+          text: 'Glowflora Hardware',
           items: [
-            { text: 'Overview', link: '/gloflora/' },
-            { text: 'Glow Flora Clip', link: '/gloflora/clip' },
-            { text: 'Glow Flora Home', link: '/gloflora/home' },
-            { text: 'Schematic & BOM', link: '/gloflora/bom' },
-            { text: 'Current Limit Config', link: '/gloflora/current-limit' },
-            { text: 'PCB Fabrication', link: '/gloflora/pcb' },
+            { text: 'Overview', link: '/glowflora/' },
+            { text: 'Glowflora Clip', link: '/glowflora/clip' },
+            { text: 'Glowflora Home', link: '/glowflora/home' },
+            { text: 'Schematic & BOM', link: '/glowflora/bom' },
+            { text: 'Current Limit Config', link: '/glowflora/current-limit' },
+            { text: 'PCB Fabrication', link: '/glowflora/pcb' },
           ]
         }
       ],
@@ -74,8 +74,8 @@ export default defineConfig({
           items: [
             { text: 'Overview', link: '/diy/' },
             { text: 'Tools & Materials', link: '/diy/tools' },
-            { text: 'Build: Glow Flora Clip', link: '/diy/build-clip' },
-            { text: 'Build: Glow Flora Home', link: '/diy/build-home' },
+            { text: 'Build: Glowflora Clip', link: '/diy/build-clip' },
+            { text: 'Build: Glowflora Home', link: '/diy/build-home' },
             { text: 'LED Wiring Basics', link: '/diy/led-wiring' },
             { text: 'Soldering Tips', link: '/diy/soldering' },
           ]

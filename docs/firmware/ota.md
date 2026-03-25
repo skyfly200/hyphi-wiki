@@ -29,7 +29,7 @@ During OWLS firmware development, ArduinoOTA allows pushing builds from Arduino 
 #include <ArduinoOTA.h>
 
 void setup() {
-  ArduinoOTA.setHostname("gloflora-home");
+  ArduinoOTA.setHostname("glowflora-home");
   ArduinoOTA.setPassword("your-ota-password");
   ArduinoOTA.begin();
 }
@@ -39,7 +39,7 @@ void loop() {
 }
 ```
 
-In Arduino IDE: **Sketch → Upload → Port → Network Ports → gloflora-home**
+In Arduino IDE: **Sketch → Upload → Port → Network Ports → glowflora-home**
 
 ## Rollback
 

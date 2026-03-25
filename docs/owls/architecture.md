@@ -24,7 +24,7 @@ OWLS is structured as a layered BLE protocol. This page describes the overall de
 
 | Role | Description |
 |------|-------------|
-| **Node** | Any OWLS-capable device (Glow Flora, Smart Sprout, bare PCB) |
+| **Node** | Any OWLS-capable device (Glowflora, Smart Sprout, bare PCB) |
 | **Controller** | A node that also coordinates group effects |
 | **Bridge** | A node with Wi-Fi that bridges BLE mesh to network |
 

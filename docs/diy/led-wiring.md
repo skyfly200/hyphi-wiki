@@ -2,7 +2,7 @@
 
 <StatusBadge type="stable" />
 
-Reference guide for wiring WS2812B addressable LEDs — the LED type used in all Glow Flora products.
+Reference guide for wiring WS2812B addressable LEDs — the LED type used in all Glowflora products.
 
 ## WS2812B Pinout
 
@@ -32,7 +32,7 @@ GND ─────────────────────────�
 ```
 
 ::: warning Data resistor
-Always include a **330Ω resistor** between the MCU GPIO and DIN of the first LED. See [Current Limit Config](../gloflora/current-limit) for details.
+Always include a **330Ω resistor** between the MCU GPIO and DIN of the first LED. See [Current Limit Config](../glowflora/current-limit) for details.
 :::
 
 ## Power Injection
@@ -46,17 +46,17 @@ For longer strips (15+ LEDs), voltage drop along the strip causes LEDs at the fa
 GND ─────────────────────────────────────────────►
 ```
 
-For Glow Flora Home (30 LEDs) at full brightness, inject power at LED 15.
+For Glowflora Home (30 LEDs) at full brightness, inject power at LED 15.
 
 ## Voltage
 
 WS2812B runs on **5V**. The ESP32 GPIO outputs 3.3V logic — this usually works fine for data signal, but a level shifter (e.g. 74AHCT125) can improve reliability for longer runs.
 
-For Glow Flora (short runs ≤30 LEDs), the 3.3V signal without a level shifter is reliable in practice.
+For Glowflora (short runs ≤30 LEDs), the 3.3V signal without a level shifter is reliable in practice.
 
 ## WS2812B vs SK6812
 
-Glow Flora uses WS2812B. SK6812 is a common alternative with similar pinout but adds a white channel (RGBW). WLED supports both — select the correct LED type in [WLED Config](../firmware/wled-config).
+Glowflora uses WS2812B. SK6812 is a common alternative with similar pinout but adds a white channel (RGBW). WLED supports both — select the correct LED type in [WLED Config](../firmware/wled-config).
 
 | Feature | WS2812B | SK6812 RGBW |
 |---------|---------|-------------|

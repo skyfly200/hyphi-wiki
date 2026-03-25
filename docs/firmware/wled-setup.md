@@ -43,5 +43,5 @@ Before using effects, set the correct LED count for your device:
 |---------|-----|
 | `WLED-AP` not appearing | Hold BOOT button 5s to reset Wi-Fi config |
 | LEDs all wrong color | Check RGB order setting (GRB is most common for WS2812B) |
-| LEDs flickering | Check power supply, add decoupling cap — see [Current Limit](../gloflora/current-limit) |
+| LEDs flickering | Check power supply, add decoupling cap — see [Current Limit](../glowflora/current-limit) |
 | Can't reach `4.3.2.1` | Disable mobile data, connect only to `WLED-AP` |

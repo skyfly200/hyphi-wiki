@@ -2,13 +2,13 @@
 
 <StatusBadge type="wip" />
 
-Full schematics and bills of materials for Glow Flora Clip and Glow Flora Home.
+Full schematics and bills of materials for Glowflora Clip and Glowflora Home.
 
 ::: tip Files coming soon
 EasyEDA project exports (schematic PDF, BOM CSV, Gerbers) will be linked here once prototype v2 is validated. In the meantime, the key components are listed below.
 :::
 
-## Glow Flora Clip — Key Components
+## Glowflora Clip — Key Components
 
 | Ref | Part | Value / PN | Source |
 |-----|------|-----------|--------|
@@ -20,7 +20,7 @@ EasyEDA project exports (schematic PDF, BOM CSV, Gerbers) will be linked here on
 | BT1 | Battery | 402030 LiPo ~150mAh | AliExpress |
 | SW1 | Tactile switch | 3×4mm SMD | JLCPCB Parts |
 
-## Glow Flora Home — Key Components
+## Glowflora Home — Key Components
 
 | Ref | Part | Value / PN | Source |
 |-----|------|-----------|--------|

@@ -1,15 +1,15 @@
-# Glow Flora Hardware
+# Glowflora Hardware
 
 <StatusBadge type="hardware" /> <StatusBadge type="wip" />
 
-Glow Flora is Hyphi's flagship LED art product line — organic LED blooms designed for festival environments, flow arts, and living spaces.
+Glowflora is Hyphi's flagship LED art product line — organic LED blooms designed for festival environments, flow arts, and living spaces.
 
 ## Product Line
 
 | Product | MCU | Power | Status |
 |---------|-----|-------|--------|
-| [Glow Flora Clip](./clip) | ESP32 | USB-C / LiPo | Near production |
-| [Glow Flora Home](./home) | ESP32 | 18650 × 2 | Prototype v2 |
+| [Glowflora Clip](./clip) | ESP32 | USB-C / LiPo | Near production |
+| [Glowflora Home](./home) | ESP32 | 18650 × 2 | Prototype v2 |
 
 ## Shared Architecture
 
@@ -30,8 +30,8 @@ Both products implement hardware current limiting to protect LEDs and battery. S
 
 ## Links
 
-- [Glow Flora Clip →](./clip)
-- [Glow Flora Home →](./home)
+- [Glowflora Clip →](./clip)
+- [Glowflora Home →](./home)
 - [Schematic & BOM →](./bom)
 - [Current Limit Config →](./current-limit)
 - [PCB Fabrication →](./pcb)
