@@ -3,6 +3,8 @@
 Layout
   template(#layout-top)
     .hyphi-nav-glow(aria-hidden="true")
+    .hyphi-draft-banner
+      | ⚠ This wiki is a work in progress — some pages may be incomplete or contain inaccurate information.
 </template>
 
 <script setup>
@@ -11,6 +13,20 @@ const { Layout } = DefaultTheme
 </script>
 
 <style lang="scss">
+.hyphi-draft-banner {
+  position: sticky;
+  top: 0;
+  z-index: 998;
+  width: 100%;
+  padding: .45rem 1rem;
+  background: var(--vp-c-warning-soft);
+  border-bottom: 1px solid var(--vp-c-warning-2);
+  color: var(--vp-c-warning-1);
+  font-size: .78rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
 .hyphi-nav-glow {
   position: fixed;
   top: 0;
