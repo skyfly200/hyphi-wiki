@@ -3,6 +3,7 @@ import HyphiLayout from './components/HyphiLayout.vue'
 import StatusBadge from './components/StatusBadge.vue'
 import UuidTable from './components/UuidTable.vue'
 import WireFormat from './components/WireFormat.vue'
+import GlowFloraCurrentLimit from './components/GlowFloraCurrentLimit.vue'
 import './styles/index.scss'
 
 export default {
@@ -14,5 +15,6 @@ export default {
     app.component('StatusBadge', StatusBadge)
     app.component('UuidTable', UuidTable)
     app.component('WireFormat', WireFormat)
+    app.component('GlowFloraCurrentLimit', GlowFloraCurrentLimit)
   }
 }
