@@ -17,7 +17,7 @@
 |-----------|--------|
 | BLE service UUIDs | Documented |
 | Characteristic UUIDs | Documented |
-| Wire formats | Documented |
+| Characteristic formats | Documented |
 | Metadata service | Documented |
 | Device discovery (NFC/QR) | Documented |
 | Mesh topology spec | Draft |
@@ -39,5 +39,5 @@
 
 - [Architecture →](./architecture)
 - [Full BLE Services & UUIDs →](./ble-services)
-- [Wire Formats →](./wire-formats)
+- [Characteristic Formats →](./wire-formats)
 - [Mesh Topology →](./mesh)

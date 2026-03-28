@@ -1,4 +1,4 @@
-# Wire Formats
+# Characteristic Formats
 
 <StatusBadge type="stable" />
 

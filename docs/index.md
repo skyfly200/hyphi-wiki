@@ -32,7 +32,7 @@ features:
 
   - icon: 🦉
     title: OWLS Protocol
-    details: Open Wireless Lighting Standard — BLE spec for syncing Hyphi devices. Full UUID reference, wire formats, and mesh topology.
+    details: Open Wireless Lighting Standard — BLE spec for syncing Hyphi devices. Full UUID reference, characteristic formats, and mesh topology.
     link: /owls/
     linkText: Read the spec
 ---

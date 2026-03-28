@@ -31,7 +31,7 @@ export default defineConfig({
             { text: 'Overview', link: '/owls/' },
             { text: 'Architecture', link: '/owls/architecture' },
             { text: 'BLE Services & UUIDs', link: '/owls/ble-services' },
-            { text: 'Wire Formats', link: '/owls/wire-formats' },
+            { text: 'Characteristic Formats', link: '/owls/wire-formats' },
             { text: 'Mesh Topology', link: '/owls/mesh' },
             { text: 'Device Discovery', link: '/owls/discovery' },
           ]

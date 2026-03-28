@@ -8,7 +8,7 @@ the protocol and the app that runs it.
 ### OWLS Protocol
 
 The **Open Wireless Lighting Standard** is fully open. The specification —
-services, UUIDs, wire formats, mesh topology — is published here and free to
+services, UUIDs, characteristic formats, mesh topology — is published here and free to
 implement on any hardware.
 
 - Spec license: **CC BY-SA 4.0**
