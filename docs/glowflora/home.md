@@ -1,6 +1,6 @@
 # Glowflora Home
 
-<StatusBadge type="hardware" /> <StatusBadge type="wip" label="Prototype v2" />
+<StatusBadge type="hardware" /> <StatusBadge type="wip" label="V1.0 — Prototype v3" />
 
 Glowflora Home is a larger LED art piece designed for living spaces, camp setups, and festival installations. Runs on dual 18650 cells for extended battery life.
 
@@ -16,13 +16,22 @@ Glowflora Home is a larger LED art piece designed for living spaces, camp setups
 | Designed in | EasyEDA |
 | Manufactured | JLCPCB |
 
-## Prototype v2 Changes
+## V1.0 — Prototype v3 Changes
 
-- Moved from single 18650 to dual parallel for ~2× runtime
-- Improved charge circuit — upgraded to IP5306 power bank IC
-- Reinforced LED pad footprints (v1 pads lifted during rework)
+- Finalized dual 18650 parallel power configuration
+- Upgraded charge circuit to IP5306 power bank IC
+- Reinforced LED pad footprints (earlier pads lifted during rework)
 - Added status LED for charge/power indication
 - Revised mounting points for enclosure fit
+- Design locked as **V1.0** — first release candidate
+
+## Revision History
+
+| Version | Label | Notes |
+|---------|-------|-------|
+| Prototype v1 | — | Initial concept, single 18650 |
+| Prototype v2 | — | Dual 18650, upgraded charge IC, reinforced pads |
+| Prototype v3 | **V1.0** | Finalized design, current release candidate |
 
 ## Power Runtime Estimates
 
@@ -38,4 +47,4 @@ Set WLED maximum current to `1000mA` for a good balance of brightness and runtim
 
 ## Enclosure
 
-Prototype v2 uses a hand-formed wire armature with diffused silicone over the LED strip. Production enclosure design is TBD — candidates include vacuum-formed PETG and resin casting.
+V1.0 uses a hand-formed wire armature with diffused silicone over the LED strip. Production enclosure design is TBD — candidates include vacuum-formed PETG and resin casting.
