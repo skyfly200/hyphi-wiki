@@ -18,9 +18,9 @@ export default defineConfig({
       { text: 'Glowflora', link: '/glowflora/' },
       { text: 'Firmware', link: '/firmware/' },
       { text: 'DIY Guides', link: '/diy/' },
+      { text: 'Hyphi Hub', link: '/hub/' },
       { text: 'OWLS Protocol', link: '/owls/' },
       { text: 'Open Source', link: '/open-source' },
-
     ],
 
     sidebar: {
@@ -33,7 +33,15 @@ export default defineConfig({
             { text: 'BLE Services & UUIDs', link: '/owls/ble-services' },
             { text: 'Characteristic Formats', link: '/owls/wire-formats' },
             { text: 'Mesh Topology', link: '/owls/mesh' },
-            { text: 'Device Discovery', link: '/owls/discovery' },
+          ]
+        }
+      ],
+      '/hub/': [
+        {
+          text: 'Hyphi Hub',
+          items: [
+            { text: 'Overview', link: '/hub/' },
+            { text: 'Device Discovery', link: '/hub/discovery' },
           ]
         }
       ],

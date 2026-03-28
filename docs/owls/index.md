@@ -19,7 +19,7 @@
 | Characteristic UUIDs | Documented |
 | Characteristic formats | Documented |
 | Metadata service | Documented |
-| Device discovery (NFC/QR) | Documented |
+| Device discovery (NFC/QR) | See [Hyphi Hub](../hub/discovery) |
 | Mesh topology spec | Draft |
 | Reference firmware | In progress |
 | Companion app SDK | Planned |
@@ -41,3 +41,4 @@
 - [Full BLE Services & UUIDs →](./ble-services)
 - [Characteristic Formats →](./wire-formats)
 - [Mesh Topology →](./mesh)
+- [Device Discovery →](../hub/discovery) *(handled by Hyphi Hub)*
