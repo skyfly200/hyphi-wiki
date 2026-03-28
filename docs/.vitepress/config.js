@@ -39,22 +39,40 @@ export default defineConfig({
       ],
       '/glowflora/': [
         {
-          text: 'Glowflora Hardware',
+          text: 'Glowflora',
           items: [
             { text: 'Overview', link: '/glowflora/' },
-            { text: 'Glowflora Clip', link: '/glowflora/clip' },
-            { text: 'Glowflora Home', link: '/glowflora/home' },
             { text: 'Schematic & BOM', link: '/glowflora/bom' },
             { text: 'Current Limit Config', link: '/glowflora/current-limit' },
             { text: 'PCB Fabrication', link: '/glowflora/pcb' },
           ]
-        }
+        },
+        {
+          text: 'Glowflora Clip',
+          items: [
+            { text: 'Clip Overview', link: '/glowflora/clip' },
+            { text: 'Build: Clip', link: '/diy/build-clip' },
+          ]
+        },
+        {
+          text: 'Glowflora Home',
+          items: [
+            { text: 'Home Overview', link: '/glowflora/home' },
+            { text: 'Build: Home', link: '/diy/build-home' },
+          ]
+        },
       ],
       '/firmware/': [
         {
-          text: 'WLED',
+          text: 'Firmware',
           items: [
             { text: 'Overview', link: '/firmware/' },
+          ]
+        },
+        {
+          text: 'WLED',
+          items: [
+            { text: 'WLED Overview', link: '/firmware/wled' },
             { text: 'WLED Setup', link: '/firmware/wled-setup' },
             { text: 'WLED Custom Config', link: '/firmware/wled-config' },
             { text: 'Flashing Guide', link: '/firmware/flashing' },
@@ -73,13 +91,20 @@ export default defineConfig({
           text: 'DIY Build Guides',
           items: [
             { text: 'Overview', link: '/diy/' },
-            { text: 'Tools & Materials', link: '/diy/tools' },
-            { text: 'Build: Glowflora Clip', link: '/diy/build-clip' },
-            { text: 'Build: Glowflora Home', link: '/diy/build-home' },
-            { text: 'LED Wiring Basics', link: '/diy/led-wiring' },
-            { text: 'Soldering Tips', link: '/diy/soldering' },
           ]
-        }
+        },
+        {
+          text: 'Glowflora Clip',
+          items: [
+            { text: 'Build: Clip', link: '/diy/build-clip' },
+          ]
+        },
+        {
+          text: 'Glowflora Home',
+          items: [
+            { text: 'Build: Home', link: '/diy/build-home' },
+          ]
+        },
       ],
     },
 
