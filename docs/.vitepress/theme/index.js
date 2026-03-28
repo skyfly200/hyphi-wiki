@@ -4,6 +4,8 @@ import StatusBadge from './components/StatusBadge.vue'
 import UuidTable from './components/UuidTable.vue'
 import WireFormat from './components/WireFormat.vue'
 import GlowFloraCurrentLimit from './components/GlowFloraCurrentLimit.vue'
+import ModelViewer from './components/ModelViewer.vue'
+import YouTubeEmbed from './components/YouTubeEmbed.vue'
 import './styles/index.scss'
 
 export default {
@@ -16,5 +18,7 @@ export default {
     app.component('UuidTable', UuidTable)
     app.component('WireFormat', WireFormat)
     app.component('GlowFloraCurrentLimit', GlowFloraCurrentLimit)
+    app.component('ModelViewer', ModelViewer)
+    app.component('YouTubeEmbed', YouTubeEmbed)
   }
 }

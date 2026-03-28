@@ -8,6 +8,8 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'theme-color', content: '#C060FF' }],
+    // model-viewer web component — enables <ModelViewer> in any .md page
+    ['script', { type: 'module', src: 'https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js' }],
   ],
 
   themeConfig: {
