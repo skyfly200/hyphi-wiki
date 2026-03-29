@@ -36,9 +36,11 @@ A compact clip-on light: an LED filament wired to a coin cell battery holder and
 | Heat gun | Optional — can use lighter carefully |
 | 3D-printed soldering jig | Optional but highly recommended |
 
-::: tip Soldering Jig
-A 3D-printable soldering jig is available in the [GlowFlora GitHub repo](https://github.com/skyfly200/GlowFlora/blob/main/LED%20Filament%20soldering%20JIG3.stl) to hold the tiny LED filament steady while you solder. Print it before you start.
-:::
+### Soldering Jig
+
+Print this before you start — it holds the LED filament steady while you solder the tiny pads.
+
+<ModelViewer src="/JIG.glb" caption="LED Filament Soldering Jig — print before assembly" />
 
 ## Step 1 — Prepare the Battery Holder Stem
 
