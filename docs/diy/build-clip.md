@@ -70,8 +70,10 @@ Once folded, **cut ~5mm off the base** of the flower so the stem wires can slide
 ## Step 3 — Slide on the Junction Heatshrink
 
 ::: warning Don't skip this step
-Cut a **12mm piece of heatshrink** and slide it onto the stem assembly now — before attaching the flower. You can't add it later.
+You can't add it later.
 :::
+
+Cut a **12mm piece of heatshrink** and slide it onto the stem assembly now — before attaching the flower.
 
 ## Step 4 — Slide the Flower onto the Stem
 
