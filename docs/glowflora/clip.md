@@ -1,6 +1,6 @@
 # Glowflora Clip
 
-<StatusBadge type="hardware" /> <StatusBadge type="wip" label="Near Production" />
+<StatusBadge type="hardware" /> <StatusBadge type="stable" label="Available" />
 
 ![Glowflora Clip](/images/glowflora/clip-v1.jpg)
 
@@ -10,21 +10,14 @@ The Glowflora Clip is a compact, battery-powered LED art piece that clips onto b
 
 | | |
 |-|-|
-| MCU | Seeed Xiao ESP32-C3 |
-| LEDs | ~12× WS2812B |
-| Power | USB-C charging, LiPo cell |
-| Firmware | WLED + OWLS |
-| Connectivity | BLE 5.0, Wi-Fi |
+| MCU | — (no microcontroller) |
+| LEDs | LED filament |
+| Power | CR2032 coin cell |
 | Designed in | EasyEDA |
 | Manufactured | JLCPCB |
 
 ## Features
 
-- Single-button power + mode select
-- USB-C charging (TP4056 charger IC)
-- Clip/mount hardware built into PCB outline
-- ~89% gross margin at current COGS target (~$20 retail)
-
-::: tip BOM & schematic
-Full BOM and schematic on the [Schematic & BOM](./bom) page.
-:::
+- On/off switch on battery holder
+- Clip/mount hardware for bags, costumes, and gear
+- Simple, no-firmware construction — fully handmade
