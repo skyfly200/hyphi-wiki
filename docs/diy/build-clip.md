@@ -18,12 +18,13 @@ A compact clip-on light: an LED filament wired to a coin cell battery holder and
 
 | Item | Notes |
 |------|-------|
-| LED filament | Bare filament, ~1–2cm |
-| CR2032 coin cell battery | + holder |
+| [LED filament](https://www.aliexpress.us/item/3256806631994581.html) | Bare LED filament |
+| [Battery holder](https://www.aliexpress.us/item/3256808616248186.html) | CR2032 coin cell holder with switch |
+| CR2032 coin cell battery | — |
 | Alligator clip | For the clip mount |
-| Origami paper | For the flower |
-| Wire | Thin, flexible — 26–28 AWG |
-| Heatshrink tubing | 3–4mm diameter |
+| 10cm origami paper | For the flower |
+| Twist tie or 24 AWG steel wire | To bundle the stem |
+| Heatshrink tubing | Various sizes — see steps |
 | Hot glue sticks | — |
 
 ## Tools
@@ -35,69 +36,81 @@ A compact clip-on light: an LED filament wired to a coin cell battery holder and
 | Scissors | For paper + heatshrink |
 | Heat gun | Optional — can use lighter carefully |
 | 3D-printed soldering jig | Optional but highly recommended |
+| Origami fold press | Optional — helps pre-crease the fold pattern |
 
 ### Soldering Jig
 
-Print this before you start — it holds the LED filament steady while you solder the tiny pads.
+Print this before you start — it holds the flexible LED filament and stem steady while you solder.
 
 <ModelViewer src="/JIG.glb" caption="LED Filament Soldering Jig — print before assembly" />
 
-## Step 1 — Prepare the Battery Holder Stem
+## Step 1 — Prepare the Stem
 
-1. Cut two short lengths of wire (~8–10cm each).
-2. Tin both wires with a small amount of solder.
-3. Thread the wires through the battery holder contacts and solder in place — keep positive (+) and negative (−) clearly identified.
-4. Bundle the wires together neatly using a twist tie to form a clean stem.
+1. Tin the tips of the battery holder wires so they don't fray during assembly.
+2. Twist the wires together with a twist tie, leaving about 2cm of twist tie at the base to secure.
+3. Hot glue the twist tie to the back of the battery holder — avoid blocking the lid or switch.
+4. Slide heatshrink tubing over the twisted wires. Cut it so **5–10mm of wire extends beyond the end** of the tubing.
+5. Shrink the tubing with a heat gun or quick passes with a lighter — be careful not to melt the wires.
+
+You now have a **stem assembly**.
 
 ## Step 2 — Fold the Origami Lily
 
-Fold a paper lily (or your flower of choice) using origami paper. The flower will sit over the LED assembly, so leave a clear opening in the center for the LED filament to poke through.
+Fold an origami lily from the 10cm paper. Optionally use a fold press to pre-crease the pattern.
 
-::: tip
-Standard 6×6" origami paper works well. The lily will hide all the wiring inside the stem.
+- [Origami Lily Folding Instructions](http://www.origami-instructions.com/origami-lily.html)
+
+Once folded, **cut ~5mm off the base** of the flower so the stem wires can slide up through it.
+
+## Step 3 — Slide on the Junction Heatshrink
+
+::: warning Don't skip this step
+Cut a **12mm piece of heatshrink** and slide it onto the stem assembly now — before attaching the flower. You can't add it later.
 :::
 
-## Step 3 — Test LED Polarity
+## Step 4 — Slide the Flower onto the Stem
 
-Before soldering, **always test the LED polarity first**:
+Slide the flower down over the stem assembly so it sits loosely in position. Leave it there for now — you'll glue it in a later step.
 
-1. Hold the LED filament wires lightly against the battery holder terminals (positive to positive, negative to negative).
-2. The LED should light up.
-3. If it doesn't, flip the filament orientation and try again.
-4. Note which end is positive (+) before soldering.
+## Step 5 — Test LED Polarity
+
+Before soldering, turn on the switch and **hold the LED filament wires to the battery holder terminals** to test polarity and confirm the LED works.
+
+- If it lights up — note which wire is positive (+)
+- If it doesn't — flip the filament and try again
 
 ::: warning Always test first
-LED filaments have a polarity — soldering them backwards means desoldering and redoing the joint. The test takes 5 seconds and saves real frustration.
+LED filaments are polarized. Soldering them backwards means desoldering a tiny fragile joint. The test takes 5 seconds.
 :::
 
-## Step 4 — Solder the LED Filament
+## Step 6 — Solder the LED Filament
 
-1. Place the LED filament in the soldering jig (or use helping hands / tape to hold it steady).
-2. Solder the positive wire to the (+) terminal of the LED filament.
-3. Solder the negative wire to the (−) terminal.
-4. Keep the joints small and clean — the filament pads are tiny.
-5. Trim any excess wire close to the joints.
+1. Use the 3D-printed jig (or helping hands) to hold the filament and stem steady.
+2. Quickly tin the LED terminals first.
+3. Bend the stem wires so they sit parallel to the terminals in the jig.
+4. Solder each wire to its terminal — **work fast** to avoid damaging the filament or melting the wires.
 
-## Step 5 — Final Assembly
+## Step 7 — Stress Relief
 
-1. Thread the LED filament up through the center of the origami lily so the bloom faces outward.
-2. Apply a small dab of hot glue inside the base of the flower to bond it to the wire stem.
-3. Hold in place for 10–15 seconds until the glue sets.
+Hot glue over the solder joints and wire ends to protect them from mechanical stress.
 
-## Step 6 — Secure the Junction
+## Step 8 — Attach the Flower
 
-1. Slide a short length of heatshrink tubing over the solder joint / wire junction at the base of the flower.
-2. Shrink it down with a heat gun (or carefully with a lighter).
-3. This protects the joint from mechanical stress and tidies up the assembly.
+1. Apply a small **bulge of hot glue** to the stem just above where the heatshrink ends.
+2. While the glue is still molten, carefully slide the flower down over it so the glue only contacts the flower's base.
+3. Lightly press the flower base into the glue so it bonds flush to the stem.
+4. Hold in place until the glue solidifies.
 
-## Step 7 — Test It
+## Step 9 — Secure the Junction
 
-Insert the CR2032 coin cell into the holder (positive side up, matching the (+) marked on the holder).
+Slide the 12mm heatshrink band (from Step 3) up over the stem-flower junction and carefully shrink it with a heat gun or lighter.
 
-Switch it on and admire your work. 🌸
+## Done
+
+Switch it on and admire your work.
 
 ::: tip Troubleshooting
-- **No light** → check battery orientation and polarity of the solder joints
+- **No light** → check battery orientation and LED polarity at the solder joints
 - **Flickering** → cold solder joint — reflow with the iron
-- **Dim** → battery may be partially discharged; try a fresh CR2032
+- **Dim** → battery may be discharged; try a fresh CR2032
 :::
