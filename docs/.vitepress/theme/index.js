@@ -6,6 +6,7 @@ import WireFormat from './components/WireFormat.vue'
 import GlowFloraCurrentLimit from './components/GlowFloraCurrentLimit.vue'
 import ModelViewer from './components/ModelViewer.vue'
 import YouTubeEmbed from './components/YouTubeEmbed.vue'
+import ImageCarousel from './components/ImageCarousel.vue'
 import './styles/index.scss'
 
 export default {
@@ -20,5 +21,6 @@ export default {
     app.component('GlowFloraCurrentLimit', GlowFloraCurrentLimit)
     app.component('ModelViewer', ModelViewer)
     app.component('YouTubeEmbed', YouTubeEmbed)
+    app.component('ImageCarousel', ImageCarousel)
   }
 }

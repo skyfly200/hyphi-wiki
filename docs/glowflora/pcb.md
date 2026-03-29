@@ -15,10 +15,6 @@ Hyphi PCBs are manufactured at **JLCPCB** with SMT assembly. This page covers th
 | Min hole size | 0.3mm |
 | SMT Assembly | Yes — JLCPCB economic SMT |
 
-::: tip Open Source Stars
-Hyphi is pursuing the **JLCPCB Open Source Stars** program for 80% PCB funding + coupons on qualifying open-source designs. Bare PCB sales to the maker community count toward this.
-:::
-
 ## EasyEDA → JLCPCB Export Workflow
 
 1. **EasyEDA** → File → Export → PCB → **Gerber (RS-274X)**

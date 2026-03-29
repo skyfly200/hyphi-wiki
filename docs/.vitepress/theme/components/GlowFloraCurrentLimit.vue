@@ -104,7 +104,7 @@
     <div class="glf-section-title">Custom Pad</div>
     <div class="glf-card">
       <p class="glf-hint">
-        For an exact limit — solder one resistor to the custom pad, close all three bypass jumpers.<br>
+        For an exact limit — solder one resistor to the custom pad and leave all tier jumpers open.<br>
         <code>R = 6800 / I<sub>target</sub> &nbsp;·&nbsp; I<sub>target</sub> = N × 60 mA × 1.20</code>
       </p>
       <div class="glf-input-row">
@@ -136,15 +136,15 @@
           Nearest E24: <strong>{{ fR(cpResult.nearest) }}</strong> →
           {{ Math.round(cpResult.actualI) }} mA
           ({{ cpResult.err >= 0 ? '+' : '' }}{{ cpResult.err.toFixed(1) }}%)<br>
-          <span class="glf-dim">Close all three </span><strong>bypass</strong>
-          <span class="glf-dim"> jumpers. Solder {{ fR(cpResult.nearest) }} to the custom pad.</span>
+          <span class="glf-dim">Leave all tier jumpers </span><strong>open</strong>
+          <span class="glf-dim">. Solder {{ fR(cpResult.nearest) }} to the custom pad.</span>
         </div>
       </div>
     </div>
 
     <!-- ── NOTES ── -->
     <div class="glf-notes">
-      <strong>One option per tier.</strong> Bypass shorts the tier — A and B have no effect while bypass is closed.<br>
+      <strong>One state per tier.</strong> Bypass shorts the tier — 0 Ω. A+B closes two jumpers but counts as one tier selection.<br>
       <strong>ISET must always have a path to GND</strong> — at least one non-bypass tier, or a custom pad resistor.<br>
       <strong>2.5 A board limit</strong> — PCB traces and connector are rated to 2.5 A.
     </div>
