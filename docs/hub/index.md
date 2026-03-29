@@ -25,8 +25,13 @@ Web Bluetooth has limited browser support — Hyphi Hub works best on Chrome for
 | Chrome Desktop | ✅ | ❌ | ✅ |
 | Edge Desktop | ✅ | ❌ | ✅ |
 | Safari / Firefox | ❌ | ❌ | ✅ |
+| Bluefy (iOS) | ✅ | ❌ | ✅ |
 
 > Safari and Firefox do not support Web Bluetooth. Hyphi Hub falls back to demo mode on unsupported browsers.
+
+## iOS
+
+Safari on iPhone and iPad does not support Web Bluetooth. The workaround is **[Bluefy](https://apps.apple.com/app/bluefy-web-ble-browser/id1492822055)** — a Web Bluetooth-enabled browser available on the App Store. Open Hyphi Hub in Bluefy to get full BLE control on iOS.
 
 ## Pages
 
