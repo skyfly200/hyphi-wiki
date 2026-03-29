@@ -6,10 +6,10 @@
       :poster="poster || undefined"
       auto-rotate
       camera-controls
-      shadow-intensity="0.5"
-      environment-image="legacy"
+      shadow-intensity="2"
+      environment-image="neutral"
       :exposure="exposure"
-      tone-mapping="commerce"
+      tone-mapping="neutral"
     />
     <div class="model-viewer-footer">
       <figcaption v-if="caption">{{ caption }}</figcaption>
@@ -26,7 +26,7 @@ defineProps({
   alt:          { type: String, default: '3D model' },
   poster:       { type: String, default: '' },
   caption:      { type: String, default: '' },
-  exposure:     { type: Number, default: 2.0 },
+  exposure:     { type: Number, default: 1.0 },
   download:     { type: String, default: '' },      // URL to the downloadable STL
   downloadName: { type: String, default: 'model.stl' },
 })
@@ -42,7 +42,7 @@ model-viewer {
   height: 420px;
   border-radius: 10px;
   border: 1px solid var(--vp-c-divider);
-  background: #f0f0f0;
+  background: #2a2a2a;
   display: block;
 }
 
