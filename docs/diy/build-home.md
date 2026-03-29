@@ -6,7 +6,7 @@ Step-by-step assembly guide for the Glowflora Home — a 30-LED ESP32 art piece 
 
 ## What You're Building
 
-Your board arrives **pre-assembled** (all SMT components soldered). This guide covers wiring the LED strip, power switch, and 18650 battery holder, then flashing and configuring WLED. Estimated time: **2–3 hours**.
+Your board arrives **pre-assembled** (all SMT components soldered). This guide covers wiring the LED strip, power switch, and 18650 battery, then flashing and configuring WLED. Estimated time: **2–3 hours**.
 
 ::: warning Battery safety
 18650 cells can deliver dangerous short-circuit currents. Never short the terminals. Verify polarity before inserting cells — reverse polarity will damage the board.
@@ -32,8 +32,7 @@ Your board arrives **pre-assembled** (all SMT components soldered). This guide c
 |------|-------|
 | Glowflora Home board | Pre-assembled, shipped |
 | WS2812B LED strip, 30 LEDs | Check [BOM](../glowflora/bom) for exact spec |
-| 1× 18650 cell | High-drain recommended — Samsung 25R, Sony VTC5, or similar |
-| 18650 battery holder | Matching the board footprint |
+| 1× 18650 cell with spot-welded tabs | High-drain recommended — Samsung 25R, Sony VTC5, or similar |
 | Power switch | SPDT slide switch — see BOM |
 | 24–26 AWG wire | Silicone-insulated preferred — flexible and heat-resistant |
 | Heatshrink tubing | 3mm and 5mm assortment |
@@ -90,12 +89,19 @@ The slide switch connects between the battery output and the board's main power 
 4. Solder the other ends to the board's **SW** pads (polarity doesn't matter for a switch).
 5. Cover the switch terminals with heatshrink.
 
-## Step 5 — Wire the Battery Holder
+## Step 5 — Wire the Battery
 
-1. Identify the **positive (+)** and **negative (−)** leads on the 18650 holder.
-2. **Before soldering to the board**, double-check polarity with your multimeter — measure the holder leads against the board's labeled pads.
-3. Solder the leads to the board **VBAT+** and **VBAT−** pads. Keep leads short and tidy.
-4. Cover all exposed connections with heatshrink.
+The 18650 cell has nickel tabs spot-welded directly to its terminals — you solder to these tabs rather than using a battery holder.
+
+::: warning No bare cell soldering
+Never solder directly to the bare metal ends of an 18650. The heat can damage or rupture the cell. Always solder to the spot-welded nickel tabs.
+:::
+
+1. Identify the **positive (+)** tab (top of cell) and **negative (−)** tab (bottom/side of cell).
+2. **Before soldering to the board**, verify polarity with your multimeter — measure the tabs against the board's labeled **VBAT+** and **VBAT−** pads.
+3. Pre-tin the tabs and the board pads.
+4. Solder each tab to its pad. Keep leads short — trim and bend the tabs to fit neatly.
+5. Cover the tab-to-pad joints with heatshrink.
 
 ## Step 6 — Inspect & Continuity Test
 
@@ -134,7 +140,7 @@ With WLED running:
 - Trigger a simple effect (e.g. solid white at 20% brightness)
 - Confirm all 30 LEDs respond
 - Check for any dead LEDs — if LED *N* and everything after it is dark, the solder joint at LED *N*'s DIN pad is suspect
-- Run at moderate brightness for 5 minutes and check that the board and battery holders don't get hot
+- Run at moderate brightness for 5 minutes and check that the board and battery don't get hot
 
 ::: tip Troubleshooting
 | Symptom | Likely cause |

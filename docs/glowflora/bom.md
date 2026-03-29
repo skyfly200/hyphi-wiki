@@ -34,3 +34,4 @@ Bill of materials for Glowflora Home V1.0 PCB (Prototype V2). All SMT components
 - **J1A–J3C + BYPASS** — open solder jumpers that select the active current limit tier. See [Current Limit Config](../diy/current-limit).
 - **DCBOOST** — DC boost converter for LED rail. Specific part TBD on schematic.
 - **HOLE1–3** — M3 mounting holes, not populated.
+- **Battery** — 18650 cell with spot-welded nickel tabs soldered directly to the board. No holder used.
