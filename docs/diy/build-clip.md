@@ -42,7 +42,12 @@ A compact clip-on light: an LED filament wired to a coin cell battery holder and
 
 Print this before you start — it holds the flexible LED filament and stem steady while you solder.
 
-<ModelViewer src="/models/JIG.glb" caption="LED Filament Soldering Jig — print before assembly" />
+<ModelViewer
+  src="/models/JIG.glb"
+  caption="LED Filament Soldering Jig — print before assembly"
+  download="https://raw.githubusercontent.com/skyfly200/GlowFlora/main/LED%20Filament%20soldering%20JIG3.stl"
+  downloadName="LED-Filament-Soldering-JIG.stl"
+/>
 
 ## Step 1 — Prepare the Stem
 
