@@ -1,9 +1,9 @@
 # Glowflora Home
 
-<StatusBadge type="hardware" /> <StatusBadge type="wip" label="V1.0 — Coming Soon" />
+<StatusBadge type="hardware" /> <StatusBadge type="wip" label="Coming Soon" />
 
 <ImageCarousel :images="[
-  { src: '/images/glowflora/home-v1.png',       caption: 'Glowflora Home — installed' },
+  { src: '/images/glowflora/home-v1.png',       caption: 'Glowflora Home — Prototype V1' },
   { src: '/images/glowflora/pcb-home-angled.png', caption: 'PCB — angled view' },
   { src: '/images/glowflora/pcb-home-top.png',    caption: 'PCB — top' },
   { src: '/images/glowflora/pcb-home-back.png',   caption: 'PCB — back' },
