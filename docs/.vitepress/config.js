@@ -44,6 +44,7 @@ export default defineConfig({
           items: [
             { text: 'Overview', link: '/hub/' },
             { text: 'Device Discovery', link: '/hub/discovery' },
+            { text: 'Device Profiles', link: '/hub/device-profiles' },
           ]
         }
       ],

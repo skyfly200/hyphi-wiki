@@ -31,3 +31,4 @@ Web Bluetooth has limited browser support — Hyphi Hub works best on Chrome for
 ## Pages
 
 - [Device Discovery →](./discovery) — BLE scan, NFC tap, QR pairing
+- [Device Profiles →](./device-profiles) — Hosted JSON profiles for extended device metadata

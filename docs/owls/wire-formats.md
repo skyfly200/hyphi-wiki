@@ -178,10 +178,13 @@ Read this first. It lists which metadata characteristics are populated on this d
 
 ### Profile (`META_PROFILE`)
 ```json
-{ "img": "bit.ly/sprout-v1", "ui": "classic", "theme": "#2E7D32" }
+{ "img": "bit.ly/sprout-v1", "ui": "classic", "theme": "#2E7D32", "meta": "https://raw.githubusercontent.com/skyfly200/hyphi-hub/main/public/devices/smart-sprout-v1.1.json" }
 ```
 | Field | Type | Description |
 |-------|------|-------------|
 | `img` | string | Thumbnail URL for device card in app |
 | `ui` | string | UI layout hint — `"classic"`, `"glowflora-clip"`, etc. |
 | `theme` | string | Hex accent color for device card |
+| `meta` | string | URL to full hosted device profile JSON (optional) |
+
+When `meta` is present, the app fetches the full device profile on first connect and caches it. This allows richer UI data (LED maps, audio viz presets, docs links) without hitting the 256-byte BLE characteristic limit. See [Device Profiles →](../hub/device-profiles)
