@@ -66,6 +66,7 @@ export default defineConfig({
           text: 'Glowflora Home',
           items: [
             { text: 'Home Overview', link: '/glowflora/home' },
+            { text: 'R&D', link: '/glowflora/home-rnd' },
             { text: 'Schematic & BOM', link: '/glowflora/bom' },
             { text: 'PCB Fabrication', link: '/glowflora/pcb' },
             { text: 'Build: Home', link: '/diy/build-home' },
