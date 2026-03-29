@@ -1,6 +1,16 @@
-# Open Source & Trademarks
+# Open Source
 
 ## What Is Open Source
+
+Open source means publishing the source — code, schematics, specifications, designs — so anyone can read, learn from, modify, and build on it. Open source projects give you the right to use the work without asking permission, contribute improvements back to the community, and create your own products and tools on top of the existing foundation.
+
+Open source doesn't mean no rules. Licenses define what you can and can't do. Some licenses are permissive (MIT, Apache) — do nearly anything, just give credit. Others are copyleft (GPL, CC BY-SA) — you can use and modify freely, but derivatives must stay open under the same terms.
+
+Open hardware extends the same principles to physical designs: schematics, PCB layouts, BOMs, and 3D files published so anyone can study, build, and improve the hardware.
+
+---
+
+## How Hyphi Is Open Source
 
 Hyphi is committed to open hardware and open software where it matters most —
 the protocol and the app that runs it.
