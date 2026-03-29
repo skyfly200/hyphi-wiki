@@ -32,7 +32,7 @@ GND ─────────────────────────�
 ```
 
 ::: warning Data resistor
-Always include a **330Ω resistor** between the MCU GPIO and DIN of the first LED. See [Current Limit Config](../glowflora/current-limit) for details.
+Always include a **330Ω resistor** between the MCU GPIO and DIN of the first LED. See [Current Limit Config](./current-limit) for details.
 :::
 
 ## Power Injection

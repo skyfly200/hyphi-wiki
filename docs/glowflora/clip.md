@@ -2,6 +2,8 @@
 
 <StatusBadge type="hardware" /> <StatusBadge type="wip" label="Near Production" />
 
+![Glowflora Clip](/images/glowflora/clip-v1.jpg)
+
 The Glowflora Clip is a compact, battery-powered LED art piece that clips onto bags, costumes, tents, and festival gear.
 
 ## Specs

@@ -53,7 +53,6 @@ export default defineConfig({
           items: [
             { text: 'Overview', link: '/glowflora/' },
             { text: 'Schematic & BOM', link: '/glowflora/bom' },
-            { text: 'Current Limit Config', link: '/glowflora/current-limit' },
             { text: 'PCB Fabrication', link: '/glowflora/pcb' },
           ]
         },
@@ -69,6 +68,12 @@ export default defineConfig({
           items: [
             { text: 'Home Overview', link: '/glowflora/home' },
             { text: 'Build: Home', link: '/diy/build-home' },
+          ]
+        },
+        {
+          text: 'Glowflora Go',
+          items: [
+            { text: 'Go Overview', link: '/glowflora/go' },
           ]
         },
       ],
@@ -101,6 +106,7 @@ export default defineConfig({
           text: 'DIY Build Guides',
           items: [
             { text: 'Overview', link: '/diy/' },
+            { text: 'Current Limit Config', link: '/diy/current-limit' },
           ]
         },
         {
@@ -142,5 +148,12 @@ export default defineConfig({
   appearance: false,
 
   // Allow Vue components in .md files
-  vue: {},
+  // Mark model-viewer as a custom element so SSR skips it (browser-only web component)
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => tag === 'model-viewer'
+      }
+    }
+  },
 })
