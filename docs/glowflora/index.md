@@ -9,8 +9,8 @@ Glowflora is Hyphi's flagship LED art product line — organic LED blooms design
 | Product | MCU | Power | Status |
 |---------|-----|-------|--------|
 | [Glowflora Clip](./clip) | — | Coin cell (CR2032) | ✅ Available |
-| [Glowflora Home](./home) | ESP32 (Xiao S3) | 18650 × 2 | V1.0 — Coming soon |
-| [Glowflora Go](./go) | ESP32 | Battery pack | Early prototype |
+| [Glowflora Home](./home) | ESP32 (Xiao S3) | 18650 × 1 | V1.0 — Coming soon |
+| [Glowflora Go](./go) | ESP32 | Battery pack | Early prototype — custom firmware |
 
 ## Shared Architecture
 

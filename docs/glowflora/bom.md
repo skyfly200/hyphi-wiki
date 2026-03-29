@@ -29,6 +29,6 @@ EasyEDA project exports (schematic PDF, BOM CSV, Gerbers) will be linked here on
 | LED1–30 | Addressable LED | WS2812B 5050 | AliExpress |
 | R1 | Data resistor | 330Ω 0402 | JLCPCB Parts |
 | C1 | Decoupling cap | 470μF 10V electrolytic | JLCPCB Parts |
-| BT1–2 | Battery | 18650 2500mAh (×2) | AliExpress |
+| BT1 | Battery | 18650 2500mAh | AliExpress |
 | SW1 | Power switch | SPDT slide | JLCPCB Parts |
 | J1 | Charge port | USB-C 16P | JLCPCB Parts |

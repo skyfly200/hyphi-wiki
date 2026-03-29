@@ -4,7 +4,7 @@
 
 ![Glowflora Go V1](/images/glowflora/go-v1.jpg)
 
-Glowflora Go is a handheld, battery-powered LED bloom — a longer-stemmed version of the Clip designed for flow arts, dancing, and performance use. The extended stem doubles as a handle.
+Glowflora Go is a handheld, battery-powered LED bloom designed for flow arts, dancing, and performance use. The extended stem doubles as a handle. Unlike Home, Go runs custom firmware rather than WLED.
 
 Full documentation coming soon.
 

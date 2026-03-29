@@ -2,11 +2,11 @@
 
 <StatusBadge type="hardware" /> <StatusBadge type="wip" label="Guide In Progress" />
 
-Step-by-step assembly guide for the Glowflora Home — a 30-LED ESP32 art piece running WLED, powered by dual 18650 cells.
+Step-by-step assembly guide for the Glowflora Home — a 30-LED ESP32 art piece running WLED, powered by a single 18650 cell.
 
 ## What You're Building
 
-Your board arrives **pre-assembled** (all SMT components soldered). This guide covers wiring the LED strip, power switch, and 18650 battery holders, then flashing and configuring WLED. Estimated time: **2–3 hours**.
+Your board arrives **pre-assembled** (all SMT components soldered). This guide covers wiring the LED strip, power switch, and 18650 battery holder, then flashing and configuring WLED. Estimated time: **2–3 hours**.
 
 ::: warning Battery safety
 18650 cells can deliver dangerous short-circuit currents. Never short the terminals. Verify polarity before inserting cells — reverse polarity will damage the board.
@@ -32,8 +32,8 @@ Your board arrives **pre-assembled** (all SMT components soldered). This guide c
 |------|-------|
 | Glowflora Home board | Pre-assembled, shipped |
 | WS2812B LED strip, 30 LEDs | Check [BOM](../glowflora/bom) for exact spec |
-| 2× 18650 cells | High-drain recommended — Samsung 25R, Sony VTC5, or similar |
-| 18650 battery holders × 2 | Matching the board footprint |
+| 1× 18650 cell | High-drain recommended — Samsung 25R, Sony VTC5, or similar |
+| 18650 battery holder | Matching the board footprint |
 | Power switch | SPDT slide switch — see BOM |
 | 24–26 AWG wire | Silicone-insulated preferred — flexible and heat-resistant |
 | Heatshrink tubing | 3mm and 5mm assortment |
@@ -90,23 +90,12 @@ The slide switch connects between the battery output and the board's main power 
 4. Solder the other ends to the board's **SW** pads (polarity doesn't matter for a switch).
 5. Cover the switch terminals with heatshrink.
 
-## Step 5 — Wire the Battery Holders
+## Step 5 — Wire the Battery Holder
 
-1. Identify the **positive (+)** and **negative (−)** leads on each 18650 holder.
-2. Wire both holders **in parallel**: positives together → to board **VBAT+**, negatives together → to board **VBAT−**.
-3. **Before soldering to the board**, double-check polarity with your multimeter — measure the holder leads against the board's labeled pads.
-4. Solder the parallel bundle to the board pads. Keep leads short and tidy.
-5. Cover all exposed junctions with heatshrink.
-
-```
-Holder 1 (+) ──┐
-               ├──► Board VBAT+
-Holder 2 (+) ──┘
-
-Holder 1 (−) ──┐
-               ├──► Board VBAT−
-Holder 2 (−) ──┘
-```
+1. Identify the **positive (+)** and **negative (−)** leads on the 18650 holder.
+2. **Before soldering to the board**, double-check polarity with your multimeter — measure the holder leads against the board's labeled pads.
+3. Solder the leads to the board **VBAT+** and **VBAT−** pads. Keep leads short and tidy.
+4. Cover all exposed connections with heatshrink.
 
 ## Step 6 — Inspect & Continuity Test
 
@@ -120,13 +109,11 @@ Before inserting batteries:
 
 ## Step 7 — First Power-Up
 
-1. Insert **one** 18650 cell only (leave the second slot empty for safety).
+1. Insert the 18650 cell.
 2. Flip the power switch ON.
 3. The board should enumerate a Wi-Fi access point: **WLED-AP** (or similar).
 4. If nothing happens — switch OFF immediately, recheck wiring.
 5. If you smell burning — switch OFF immediately, inspect for shorts.
-
-Once the AP appears, insert the second cell.
 
 ## Step 8 — Flash & Configure WLED
 
@@ -135,7 +122,7 @@ Follow the [WLED Setup](../firmware/wled-setup) guide to:
 1. Connect to the WLED-AP access point
 2. Configure your home Wi-Fi network
 3. Set **LED count to 30** and **LED type to WS2812B**
-4. Set **maximum current to 1000mA** (enforces a safe brightness cap for the 18650s)
+4. Set **maximum current to 1000mA** (enforces a safe brightness cap for the 18650)
 5. Save and reboot
 
 See [WLED Custom Config](../firmware/wled-config) for preset setup and brightness tuning.

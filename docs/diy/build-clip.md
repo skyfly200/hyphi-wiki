@@ -101,6 +101,8 @@ LED filaments are polarized. Soldering them backwards means desoldering a tiny f
 
 Hot glue over the solder joints and wire ends to protect them from mechanical stress.
 
+![Soldered LED filament with hot glue stress relief](/images/glowflora/clip-solder-joint.jpg)
+
 ## Step 8 — Attach the Flower
 
 1. Apply a small **bulge of hot glue** to the stem just above where the heatshrink ends.
@@ -115,6 +117,12 @@ Slide the 12mm heatshrink band (from Step 3) up over the stem-flower junction an
 ## Done
 
 Switch it on and admire your work.
+
+<ImageCarousel :images="[
+  { src: '/images/glowflora/clip-complete-front.jpg', caption: 'Completed Glowflora Clip — front view' },
+  { src: '/images/glowflora/clip-complete-side.jpg', caption: 'Side view with clip hardware' },
+  { src: '/images/glowflora/clip-complete-held.jpg', caption: 'Finished clip held in hand' },
+]" />
 
 ::: tip Troubleshooting
 - **No light** → check battery orientation and LED polarity at the solder joints
