@@ -49,8 +49,6 @@ Print this before you start — it holds the flexible LED filament and stem stea
   downloadName="LED-Filament-Soldering-JIG.stl"
 />
 
-[↓ Download Blender source (.blend)](/models/JIG.blend)
-
 ## Step 1 — Prepare the Stem
 
 1. Tin the tips of the battery holder wires so they don't fray during assembly.
