@@ -23,6 +23,7 @@ export default defineConfig({
       { text: 'Hyphi Hub', link: '/hub/' },
       { text: 'OWLS Protocol', link: '/owls/' },
       { text: 'Open Source', link: '/open-source' },
+      { text: 'Resumes', link: '/resume' },
     ],
 
     sidebar: {
