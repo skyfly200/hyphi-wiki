@@ -36,15 +36,3 @@ features:
     link: /owls/
     linkText: Read the spec
 ---
-
-<div class="hyphi-home-brand">
-  <HyphiBrandLink />
-</div>
-
-<style>
-.hyphi-home-brand {
-  display: flex;
-  justify-content: center;
-  padding: 2.5rem 1rem 1rem;
-}
-</style>
