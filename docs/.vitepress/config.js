@@ -108,7 +108,6 @@ export default defineConfig({
           text: 'DIY Build Guides',
           items: [
             { text: 'Overview', link: '/diy/' },
-            { text: 'Current Limit Config', link: '/diy/current-limit' },
           ]
         },
         {
@@ -121,6 +120,7 @@ export default defineConfig({
           text: 'Glowflora Home',
           items: [
             { text: 'Build: Home', link: '/diy/build-home' },
+            { text: 'Current Limit Config', link: '/diy/current-limit' },
           ]
         },
       ],
