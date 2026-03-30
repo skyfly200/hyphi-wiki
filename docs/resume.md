@@ -11,8 +11,8 @@ title: Resumes
       <span class="resume-card__label">Hardware</span>
       <p class="resume-card__desc">PCB design, embedded systems, open hardware, and electronics engineering.</p>
     </div>
-    <a class="resume-btn resume-btn--coming-soon" aria-disabled="true">
-      <span>Coming Soon</span>
+    <a class="resume-btn" href="https://docs.google.com/document/d/1aF1ZYINRUTcA3LMiVBZYL5ojxHYw_V1haFGfZ_ALJtM/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+      <span>View Resume ↗</span>
     </a>
   </div>
 
@@ -81,11 +81,4 @@ title: Resumes
   color: #ff6b35;
 }
 
-.resume-btn--coming-soon {
-  border-color: rgba(122, 122, 154, 0.3);
-  background: rgba(122, 122, 154, 0.06);
-  color: var(--hyphi-sub);
-  cursor: default;
-  pointer-events: none;
-}
 </style>
