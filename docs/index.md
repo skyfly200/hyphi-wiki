@@ -10,29 +10,41 @@ hero:
     src: /ColorLogo.svg
     alt: Hyphi
 features:
+  - icon: 🌸
+    title: Glowflora Hardware
+    details: LED art hardware for festival, flow arts, and home — Clip, Home, and Go. Schematics, BOM, PCB fabrication guides, and product overviews.
+    link: /glowflora/
+    linkText: Explore hardware
+
   - icon:
       src: /images/wled-logo.png
     title: WLED Firmware
-    details: Flashing guides, WLED setup, custom config, and OTA updates for Glowflora home devices.
+    details: Setup, custom config, and OTA updates for Glowflora Home devices running WLED. Covers LED count, current limiting, presets, and esptool flashing.
     link: /firmware/
     linkText: WLED docs
 
   - icon:
       src: /images/ble-icon.svg
     title: BLE Device Firmware
-    details: BLE GATT firmware for wearable and flow-line devices — OWLS services, pairing, and build instructions.
+    details: Custom BLE firmware for wearable and flow-line devices — implements OWLS services for Hyphi Hub control over Bluetooth. No Wi-Fi or cloud required.
     link: /firmware/owls-fw
     linkText: BLE firmware docs
 
   - icon: 🔧
     title: DIY Build Guides
-    details: Step-by-step assembly guides for pre-assembled boards — LED wiring, battery hookup, and first flash.
+    details: Assembly guides for Glowflora Clip and Home — LED wiring, power hookup, soldering tips, and current limit resistor config.
     link: /diy/
     linkText: Start building
 
+  - icon: 📡
+    title: Hyphi Hub
+    details: Open-source PWA for controlling OWLS devices over Web Bluetooth. No install, no cloud. Supports BLE scan, NFC tap, and QR pairing. iOS via Bluefy.
+    link: /hub/
+    linkText: Hub docs
+
   - icon: 🦉
     title: OWLS Protocol
-    details: Open Wireless Lighting Standard — BLE spec for syncing Hyphi devices. Full UUID reference, characteristic formats, and mesh topology.
+    details: Open Wireless Lighting Standard — the open BLE mesh protocol powering Hyphi devices. Full service and UUID reference, characteristic formats, and mesh topology.
     link: /owls/
     linkText: Read the spec
 ---
