@@ -11,14 +11,14 @@ hero:
     alt: Hyphi
 features:
   - icon:
-      src: /wled-logo.png
+      src: /images/wled-logo.png
     title: WLED Firmware
     details: Flashing guides, WLED setup, custom config, and OTA updates for Glowflora home devices.
     link: /firmware/
     linkText: WLED docs
 
   - icon:
-      src: /ble-icon.svg
+      src: /images/ble-icon.svg
     title: BLE Device Firmware
     details: BLE GATT firmware for wearable and flow-line devices — OWLS services, pairing, and build instructions.
     link: /firmware/owls-fw
