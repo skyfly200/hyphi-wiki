@@ -16,7 +16,7 @@ features:
     link: /glowflora/
     linkText: Explore products
 
-  - icon: ⚡
+  - icon: 💾
     title: Firmware
     details: WLED for Home devices — setup, config, OTA. Custom BLE firmware for wearable and flow-line devices via the OWLS protocol.
     link: /firmware/
@@ -28,7 +28,7 @@ features:
     link: /diy/
     linkText: Start building
 
-  - icon: 📡
+  - icon: 📱
     title: Hyphi Hub
     details: Open-source PWA for controlling OWLS devices over Web Bluetooth. No install, no cloud. Supports BLE scan, NFC tap, and QR pairing. iOS via Bluefy.
     link: /hub/
