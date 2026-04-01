@@ -12,13 +12,13 @@ hero:
 features:
   - icon: 🌸
     title: Products
-    details: Glowflora LED art hardware: Clip, Home, and Go. Schematics, BOM, PCB fabrication guides, and product overviews.
+    details: "Glowflora LED art hardware — Clip, Home, and Go. Schematics, BOM, PCB fabrication guides, and product overviews."
     link: /glowflora/
     linkText: Explore products
 
   - icon: 💾
     title: Firmware
-    details: WLED for Home devices: setup, config, and OTA. Custom BLE firmware for wearable and flow-line devices via the OWLS protocol.
+    details: "WLED for Home devices — setup, config, and OTA. Custom BLE firmware for wearable and flow-line devices via the OWLS protocol."
     link: /firmware/
     linkText: Firmware docs
 
