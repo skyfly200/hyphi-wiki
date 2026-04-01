@@ -10,12 +10,6 @@ hero:
     src: /ColorLogo.svg
     alt: Hyphi
 features:
-  - icon: 🌸
-    title: Glowflora Hardware
-    details: LED art hardware for festival, flow arts, and home — Clip, Home, and Go. Schematics, BOM, PCB fabrication guides, and product overviews.
-    link: /glowflora/
-    linkText: Explore hardware
-
   - icon:
       src: /images/wled-logo.png
     title: WLED Firmware
@@ -48,3 +42,6 @@ features:
     link: /owls/
     linkText: Read the spec
 ---
+
+<ProductsSection />
+
