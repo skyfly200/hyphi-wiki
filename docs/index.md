@@ -22,7 +22,7 @@ features:
     link: /firmware/
     linkText: Firmware docs
 
-  - icon: 🔧
+  - icon: 🛠️
     title: DIY Build Guides
     details: Assembly guides for Glowflora Clip and Home — LED wiring, power hookup, soldering tips, and current limit resistor config.
     link: /diy/
@@ -40,7 +40,7 @@ features:
     link: /owls/
     linkText: Read the spec
 
-  - icon: 🔩
+  - icon: 🔧
     title: Repair Guides
     details: Coming soon — troubleshooting, component replacement, and repair guides for Hyphi hardware.
 ---
