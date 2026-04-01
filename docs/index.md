@@ -39,6 +39,10 @@ features:
     details: Open Wireless Lighting Standard — the open BLE mesh protocol powering Hyphi devices. Full service and UUID reference, characteristic formats, and mesh topology.
     link: /owls/
     linkText: Read the spec
+
+  - icon: 🔩
+    title: Repair Guides
+    details: Coming soon — troubleshooting, component replacement, and repair guides for Hyphi hardware.
 ---
 
 <ProductsSection />
