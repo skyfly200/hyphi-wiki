@@ -5,7 +5,7 @@ title: Hyphi Wiki
 hero:
   name: Hyphi Wiki
   text: Guides & Documentation
-  tagline: OWLS protocol spec, Glowflora hardware, firmware guides, and DIY builds. All in one place.
+  tagline: Glowflora hardware, WLED and BLE firmware, DIY build guides, Hyphi Hub, and the open OWLS protocol spec.
   image:
     src: /ColorLogo.svg
     alt: Hyphi
