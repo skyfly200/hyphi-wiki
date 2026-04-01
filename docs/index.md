@@ -5,26 +5,26 @@ title: Hyphi Wiki
 hero:
   name: Hyphi Wiki
   text: Guides & Documentation
-  tagline: OWLS protocol spec, Glowflora hardware, firmware guides, and DIY builds — all in one place.
+  tagline: OWLS protocol spec, Glowflora hardware, firmware guides, and DIY builds. All in one place.
   image:
     src: /ColorLogo.svg
     alt: Hyphi
 features:
   - icon: 🌸
     title: Products
-    details: Glowflora LED art hardware — Clip, Home, and Go. Schematics, BOM, PCB fabrication guides, and product overviews.
+    details: Glowflora LED art hardware: Clip, Home, and Go. Schematics, BOM, PCB fabrication guides, and product overviews.
     link: /glowflora/
     linkText: Explore products
 
   - icon: 💾
     title: Firmware
-    details: WLED for Home devices — setup, config, OTA. Custom BLE firmware for wearable and flow-line devices via the OWLS protocol.
+    details: WLED for Home devices: setup, config, and OTA. Custom BLE firmware for wearable and flow-line devices via the OWLS protocol.
     link: /firmware/
     linkText: Firmware docs
 
   - icon: 🛠️
     title: DIY Build Guides
-    details: Assembly guides for Glowflora Clip and Home — LED wiring, power hookup, soldering tips, and current limit resistor config.
+    details: Assembly guides for Glowflora Clip and Home. LED wiring, power hookup, soldering tips, and current limit resistor config.
     link: /diy/
     linkText: Start building
 
@@ -36,13 +36,13 @@ features:
 
   - icon: 🦉
     title: OWLS Protocol
-    details: Open Wireless Lighting Standard — the open BLE mesh protocol powering Hyphi devices. Full service and UUID reference, characteristic formats, and mesh topology.
+    details: Open Wireless Lighting Standard, the open BLE mesh protocol powering Hyphi devices. Full service and UUID reference, characteristic formats, and mesh topology.
     link: /owls/
     linkText: Read the spec
 
   - icon: 🔧
     title: Repair Guides
-    details: Coming soon — troubleshooting, component replacement, and repair guides for Hyphi hardware.
+    details: Coming soon. Troubleshooting, component replacement, and repair guides for Hyphi hardware.
 ---
 
 <ProductsSection />
