@@ -10,19 +10,17 @@ hero:
     src: /ColorLogo.svg
     alt: Hyphi
 features:
-  - icon:
-      src: /images/wled-logo.png
-    title: WLED Firmware
-    details: Setup, custom config, and OTA updates for Glowflora Home devices running WLED. Covers LED count, current limiting, presets, and esptool flashing.
-    link: /firmware/
-    linkText: WLED docs
+  - icon: 🌸
+    title: Products
+    details: Glowflora LED art hardware — Clip, Home, and Go. Schematics, BOM, PCB fabrication guides, and product overviews.
+    link: /glowflora/
+    linkText: Explore products
 
-  - icon:
-      src: /images/ble-icon.svg
-    title: BLE Device Firmware
-    details: Custom BLE firmware for wearable and flow-line devices — implements OWLS services for Hyphi Hub control over Bluetooth. No Wi-Fi or cloud required.
-    link: /firmware/owls-fw
-    linkText: BLE firmware docs
+  - icon: ⚡
+    title: Firmware
+    details: WLED for Home devices — setup, config, OTA. Custom BLE firmware for wearable and flow-line devices via the OWLS protocol.
+    link: /firmware/
+    linkText: Firmware docs
 
   - icon: 🔧
     title: DIY Build Guides
