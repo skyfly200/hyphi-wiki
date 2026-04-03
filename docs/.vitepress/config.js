@@ -46,6 +46,14 @@ export default defineConfig({
             { text: 'Device Discovery', link: '/hub/discovery' },
             { text: 'Device Profiles', link: '/hub/device-profiles' },
           ]
+        },
+        {
+          text: 'Product Files',
+          items: [
+            { text: 'LED Data Format', link: '/hub/led-data-format' },
+            { text: 'Product Package (.hpkg)', link: '/hub/product-package-format' },
+            { text: 'Creating Product Files', link: '/hub/creating-product-files' },
+          ]
         }
       ],
       '/glowflora/': [
