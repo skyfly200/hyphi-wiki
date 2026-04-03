@@ -157,6 +157,10 @@ export default defineConfig({
   // Dark-mode only — disable the appearance toggle
   appearance: false,
 
+  markdown: {
+    theme: 'one-dark-pro',
+  },
+
   // Allow Vue components in .md files
   // Mark model-viewer as a custom element so SSR skips it (browser-only web component)
   vue: {
