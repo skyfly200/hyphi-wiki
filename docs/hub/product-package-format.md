@@ -45,7 +45,7 @@ glow-flora.hpkg
 {
   "version": "1.0",            // package format version
   "product": "glow-flora",     // product slug (matches leds.json)
-  "productName": "Glow Flora",
+  "productName": "GlowFlora",
   "created": "2026-04-02",
   "schemaVersion": {
     "assembly": "1.0",
@@ -225,7 +225,7 @@ print(f"Packaged: dist/{product}.hpkg ({pathlib.Path(f'dist/{product}.hpkg').sta
 | Each GLB model (Draco) | < 200 KB |
 | Each diffuse texture (WebP) | < 100 KB |
 | Each lightmap (WebP, 512px) | < 40 KB |
-| Full `.hpkg` for Glow Flora | < 2 MB |
+| Full `.hpkg` for GlowFlora | < 2 MB |
 
 ---
 

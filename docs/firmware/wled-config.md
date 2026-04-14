@@ -2,13 +2,13 @@
 
 <StatusBadge type="stable" />
 
-Glowflora-specific WLED settings for correct LED count, current limiting, and performance.
+GlowFlora-specific WLED settings for correct LED count, current limiting, and performance.
 
 ## LED Preferences
 
 **WLED UI → Config → LED Preferences**
 
-### Glowflora Clip
+### GlowFlora Clip
 
 | Setting | Value |
 |---------|-------|
@@ -19,7 +19,7 @@ Glowflora-specific WLED settings for correct LED count, current limiting, and pe
 | Maximum brightness | `200` |
 | Maximum current | `400` mA |
 
-### Glowflora Home
+### GlowFlora Home
 
 | Setting | Value |
 |---------|-------|

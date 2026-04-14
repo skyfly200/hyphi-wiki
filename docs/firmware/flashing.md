@@ -2,7 +2,7 @@
 
 <StatusBadge type="stable" />
 
-How to flash WLED onto Glowflora home devices, or custom BLE firmware onto wearable and flow-line devices.
+How to flash WLED onto GlowFlora home devices, or custom BLE firmware onto wearable and flow-line devices.
 
 ## Method 1 — WLED Web Installer (Easiest)
 

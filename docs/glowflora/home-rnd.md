@@ -1,4 +1,4 @@
-# Glowflora Home — R&D
+# GlowFlora Home — R&D
 
 <StatusBadge type="wip" />
 

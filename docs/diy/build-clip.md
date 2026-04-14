@@ -1,8 +1,8 @@
-# Build: Glowflora Clip
+# Build: GlowFlora Clip
 
 <StatusBadge type="hardware" /> <StatusBadge type="wip" label="Guide In Progress" />
 
-Step-by-step assembly guide for the Glowflora Clip — a battery-powered LED filament bloom that clips onto bags, costumes, and festival gear.
+Step-by-step assembly guide for the GlowFlora Clip — a battery-powered LED filament bloom that clips onto bags, costumes, and festival gear.
 
 ::: tip Prerequisites
 - Read [Tools & Materials](./tools) and gather everything before starting
@@ -119,7 +119,7 @@ Slide the 12mm heatshrink band (from Step 3) up over the stem-flower junction an
 Switch it on and admire your work.
 
 <ImageCarousel :images="[
-  { src: '/images/glowflora/clip-complete-front.jpg', caption: 'Completed Glowflora Clip — front view' },
+  { src: '/images/glowflora/clip-complete-front.jpg', caption: 'Completed GlowFlora Clip — front view' },
   { src: '/images/glowflora/clip-complete-side.jpg', caption: 'Side view with clip hardware' },
   { src: '/images/glowflora/clip-complete-held.jpg', caption: 'Finished clip held in hand' },
 ]" />

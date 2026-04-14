@@ -2,7 +2,7 @@
 
 <StatusBadge type="stable" /> <StatusBadge type="hardware" label="Home Devices" />
 
-[WLED](https://wled.me) is open-source LED effects firmware for ESP32. Hyphi home devices — Glowflora Clip and Glowflora Home — ship with WLED pre-flashed and ready to go.
+[WLED](https://wled.me) is open-source LED effects firmware for ESP32. Hyphi home devices — GlowFlora Clip and GlowFlora Home — ship with WLED pre-flashed and ready to go.
 
 ## What WLED Gives You
 

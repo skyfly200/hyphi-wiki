@@ -5,14 +5,14 @@ title: Hyphi Wiki
 hero:
   name: Hyphi Wiki
   text: Guides & Documentation
-  tagline: Glowflora hardware, WLED and BLE firmware, DIY build guides, Hyphi Hub, and the open OWLS protocol spec.
+  tagline: GlowFlora hardware, WLED and BLE firmware, DIY build guides, Hyphi Hub, and the open OWLS protocol spec.
   image:
     src: /ColorLogo.svg
     alt: Hyphi
 features:
   - icon: 🌸
     title: Products
-    details: "Glowflora LED art hardware — Clip, Home, and Go. Schematics, BOM, PCB fabrication guides, and product overviews."
+    details: "GlowFlora LED art hardware — Clip, Home, and Go. Schematics, BOM, PCB fabrication guides, and product overviews."
     link: /glowflora/
     linkText: Explore products
 
@@ -24,7 +24,7 @@ features:
 
   - icon: 🧰
     title: DIY Build Guides
-    details: Assembly guides for Glowflora Clip and Home. LED wiring, power hookup, soldering tips, and current limit resistor config.
+    details: Assembly guides for GlowFlora Clip and Home. LED wiring, power hookup, soldering tips, and current limit resistor config.
     link: /diy/
     linkText: Start building
 

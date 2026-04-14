@@ -2,9 +2,9 @@
 
 <StatusBadge type="stable" />
 
-Bill of materials for Glowflora Home V1.0 PCB (Prototype V2). All SMT components are sourced from LCSC and assembled by JLCPCB.
+Bill of materials for GlowFlora Home V1.0 PCB (Prototype V2). All SMT components are sourced from LCSC and assembled by JLCPCB.
 
-## Glowflora Home V1.0 — Full BOM
+## GlowFlora Home V1.0 — Full BOM
 
 | No. | Qty | Ref(s) | Part | Value | LCSC |
 |-----|-----|--------|------|-------|------|

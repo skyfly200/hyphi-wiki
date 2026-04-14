@@ -30,7 +30,7 @@ Schema file: [`data/schema/led-data-v1.json`](https://github.com/skyfly200/hyphi
 {
   "version": "1.0",           // required — must match schema version
   "product": "glow-flora",    // required — URL-safe product slug
-  "productName": "Glow Flora",
+  "productName": "GlowFlora",
   "created": "2026-04-02",    // ISO 8601 date
   "coordinateSpace": { ... }, // optional — defaults below
   "strips": [ ... ],          // required — one entry per physical LED strip

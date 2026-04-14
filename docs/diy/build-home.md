@@ -1,8 +1,8 @@
-# Build: Glowflora Home
+# Build: GlowFlora Home
 
 <StatusBadge type="hardware" /> <StatusBadge type="wip" label="Guide In Progress" />
 
-Step-by-step assembly guide for the Glowflora Home — a 30-LED ESP32 art piece running WLED, powered by a single 18650 cell.
+Step-by-step assembly guide for the GlowFlora Home — a 30-LED ESP32 art piece running WLED, powered by a single 18650 cell.
 
 ## What You're Building
 
@@ -30,7 +30,7 @@ Your board arrives **pre-assembled** (all SMT components soldered). This guide c
 
 | Item | Notes |
 |------|-------|
-| Glowflora Home board | Pre-assembled, shipped |
+| GlowFlora Home board | Pre-assembled, shipped |
 | WS2812B LED strip, 30 LEDs | Check [BOM](../glowflora/bom) for exact spec |
 | 1× 18650 cell with spot-welded tabs | High-drain recommended — Samsung 25R, Sony VTC5, or similar |
 | Power switch | SPDT slide switch — see BOM |

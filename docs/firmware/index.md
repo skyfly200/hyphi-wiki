@@ -4,7 +4,7 @@ Hyphi devices use different firmware depending on the product line.
 
 | Product Line | Firmware | Controlled By |
 |---|---|---|
-| Home (Glowflora Home, Clip) | WLED | WLED app / web UI |
+| Home (GlowFlora Home, Clip) | WLED | WLED app / web UI |
 | Wearable & Flow | Custom BLE firmware | Hyphi Hub PWA |
 
 ---

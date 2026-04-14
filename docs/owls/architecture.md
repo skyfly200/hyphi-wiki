@@ -25,7 +25,7 @@ OWLS is structured as a layered BLE GATT protocol. This page describes the overa
 
 | Role | Description |
 |------|-------------|
-| **Node** | Any OWLS-capable device — Glowflora, Smart Sprout, bare MCU |
+| **Node** | Any OWLS-capable device — GlowFlora, Smart Sprout, bare MCU |
 | **Controller** | A node that also coordinates group effects and scene sync |
 | **Bridge** | A node with Wi-Fi that bridges BLE mesh to the local network |
 
@@ -36,8 +36,8 @@ OWLS is MCU-agnostic. Any platform with BLE and enough RAM for the GATT table ca
 | Platform | Status | Notes |
 |----------|--------|-------|
 | SparkFun Artemis Nano (Apollo3) | ✅ In use | Smart Sprout V1.1 — ArduinoBLE, PDM mic, SPI DMA LEDs |
-| Seeed Xiao ESP32-C3 | ✅ In use | Glowflora Clip — WLED + OWLS |
-| Seeed Xiao ESP32-S3 | ✅ In use | Glowflora Home V1.0 — WLED + OWLS |
+| Seeed Xiao ESP32-C3 | ✅ In use | GlowFlora Clip — WLED + OWLS |
+| Seeed Xiao ESP32-S3 | ✅ In use | GlowFlora Home V1.0 — WLED + OWLS |
 | Nordic nRF52x | Planned | Target for future wearable hardware |
 
 ## Reference Implementation — Smart Sprout V1.1

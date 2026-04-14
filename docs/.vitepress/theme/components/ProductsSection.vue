@@ -22,7 +22,7 @@ section.products-section
 const products = [
   {
     icon: '🌸',
-    name: 'Glowflora',
+    name: 'GlowFlora',
     details: 'LED art hardware for festival, flow arts, and home — Clip, Home, and Go variants. Schematics, BOM, PCB fabrication, and build guides.',
     link: '/glowflora/',
   },

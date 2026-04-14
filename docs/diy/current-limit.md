@@ -1,6 +1,6 @@
 # Current Limit Configuration
 
-The Glowflora Home PCB uses an **MT9700N** — a programmable current limiting switch IC — to protect the LED strip and battery from overcurrent. The MT9700N sets its output current limit via a resistor on its `ISET` pin: the higher the resistance, the lower the current limit.
+The GlowFlora Home PCB uses an **MT9700N** — a programmable current limiting switch IC — to protect the LED strip and battery from overcurrent. The MT9700N sets its output current limit via a resistor on its `ISET` pin: the higher the resistance, the lower the current limit.
 
 [MT9700N Datasheet →](https://www.lcsc.com/datasheet/C89855.pdf)
 

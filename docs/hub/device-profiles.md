@@ -147,8 +147,8 @@ Official device profiles are hosted in the `hyphi-hub` repository and served as 
 | Device | Profile URL |
 |--------|-------------|
 | Smart Sprout V1.1 | [`/devices/smart-sprout-v1.1.json`](https://raw.githubusercontent.com/skyfly200/hyphi-hub/main/public/devices/smart-sprout-v1.1.json) |
-| Glowflora Clip V1 | [`/devices/glowflora-clip-v1.json`](https://raw.githubusercontent.com/skyfly200/hyphi-hub/main/public/devices/glowflora-clip-v1.json) |
-| Glowflora Home V1 | [`/devices/glowflora-home-v1.json`](https://raw.githubusercontent.com/skyfly200/hyphi-hub/main/public/devices/glowflora-home-v1.json) |
+| GlowFlora Clip V1 | [`/devices/glowflora-clip-v1.json`](https://raw.githubusercontent.com/skyfly200/hyphi-hub/main/public/devices/glowflora-clip-v1.json) |
+| GlowFlora Home V1 | [`/devices/glowflora-home-v1.json`](https://raw.githubusercontent.com/skyfly200/hyphi-hub/main/public/devices/glowflora-home-v1.json) |
 
 Profiles live in [`public/devices/`](https://github.com/skyfly200/hyphi-hub/tree/main/public/devices) in the hyphi-hub repo.
 

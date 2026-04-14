@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'Hyphi Wiki',
-  description: 'Open hardware documentation — OWLS protocol, Glowflora, firmware, and DIY guides',
+  description: 'Open hardware documentation — OWLS protocol, GlowFlora, firmware, and DIY guides',
   lang: 'en-US',
 
   head: [
@@ -17,7 +17,7 @@ export default defineConfig({
     siteTitle: 'Hyphi Wiki',
 
     nav: [
-      { text: 'Glowflora', link: '/glowflora/' },
+      { text: 'GlowFlora', link: '/glowflora/' },
       { text: 'Firmware', link: '/firmware/' },
       { text: 'DIY Guides', link: '/diy/' },
       { text: 'Hyphi Hub', link: '/hub/' },
@@ -58,20 +58,20 @@ export default defineConfig({
       ],
       '/glowflora/': [
         {
-          text: 'Glowflora',
+          text: 'GlowFlora',
           items: [
             { text: 'Overview', link: '/glowflora/' },
           ]
         },
         {
-          text: 'Glowflora Clip',
+          text: 'GlowFlora Clip',
           items: [
             { text: 'Clip Overview', link: '/glowflora/clip' },
             { text: 'Build: Clip', link: '/diy/build-clip' },
           ]
         },
         {
-          text: 'Glowflora Home',
+          text: 'GlowFlora Home',
           items: [
             { text: 'Home Overview', link: '/glowflora/home' },
             { text: 'R&D', link: '/glowflora/home-rnd' },
@@ -81,7 +81,7 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Glowflora Go',
+          text: 'GlowFlora Go',
           items: [
             { text: 'Go Overview', link: '/glowflora/go' },
           ]
@@ -119,13 +119,13 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Glowflora Clip',
+          text: 'GlowFlora Clip',
           items: [
             { text: 'Build: Clip', link: '/diy/build-clip' },
           ]
         },
         {
-          text: 'Glowflora Home',
+          text: 'GlowFlora Home',
           items: [
             { text: 'Build: Home', link: '/diy/build-home' },
             { text: 'Current Limit Config', link: '/diy/current-limit' },
