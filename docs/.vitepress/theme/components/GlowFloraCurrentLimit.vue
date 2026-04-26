@@ -1,7 +1,7 @@
 <template>
   <div class="glf-calc">
 
-    <div class="glf-formula">I<sub>lim</sub> (mA) = 6800 / R<sub>set</sub> (Ω)</div>
+    <div class="glf-formula">I<sub>lim</sub> (mA) = 6800 / R<sub>set</sub> (kΩ)</div>
 
     <!-- ── MAIN CALCULATOR ── -->
     <div class="glf-section-title">Find Jumper Settings</div>
@@ -105,7 +105,7 @@
     <div class="glf-card">
       <p class="glf-hint">
         For an exact limit — solder one resistor to the custom pad and leave all tier jumpers open.<br>
-        <code>R = 6800 / I<sub>target</sub> &nbsp;·&nbsp; I<sub>target</sub> = N × 60 mA × 1.20</code>
+        <code>R (kΩ) = 6800 / I<sub>target</sub> (mA) &nbsp;·&nbsp; I<sub>target</sub> = N × 60 mA × 1.20</code>
       </p>
       <div class="glf-input-row">
         <div class="glf-field">
@@ -161,9 +161,9 @@ const BUFFER  = 0.20
 const MAX_CAP = 2500
 
 const tiers = [
-  { name: 'T1', a: 24000, b: 47000 },
-  { name: 'T2', a: 4700,  b: 10000 },
-  { name: 'T3', a: 3900,  b: 8200  },
+  { name: 'T1', a: 3300,  b: 20000 },
+  { name: 'T2', a: 3900,  b: 2400  },
+  { name: 'T3', a: 6800,  b: 3000  },
 ]
 
 const E24_VALS = [10,11,12,13,15,16,18,20,22,24,27,30,33,36,39,43,47,51,56,62,68,75,82,91]

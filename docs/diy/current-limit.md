@@ -7,7 +7,7 @@ The GlowFlora Home PCB uses an **MT9700N** — a programmable current limiting s
 **Formula:**
 
 ```
-I_lim (mA) = 6800 / R_set (Ω)
+I_lim (mA) = 6800 / R_set (kΩ)
 ```
 
 A 3-tier solder jumper matrix — 6 resistors, 9 jumpers — lets you select a current limit for any LED count without reflowing components.
